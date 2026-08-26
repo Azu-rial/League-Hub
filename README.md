@@ -189,16 +189,16 @@ graph TD
 // Request
 POST /api/auth/login
 {
-  "username": "HbeHbe1414",
-  "password": "AHBE1414"
+  "username": "username",
+  "password": "password"
 }
 
 // Response
 {
-  "token": "eyJhbGciOiJIUzI1NiIs...",
+  "token": "xxxxxxxxxxxx...",
   "admin": {
     "id": "admin-001",
-    "username": "HbeHbe1414",
+    "username": "username",
     "role": "owner"
   }
 }
