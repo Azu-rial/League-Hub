@@ -26,6 +26,8 @@
 [![Discord](https://img.shields.io/badge/Discord.js-14.14-5865F2?style=for-the-badge&logo=discord&logoColor=white)](package.json)
 [![License](https://img.shields.io/badge/License-MIT-A371F7?style=for-the-badge)](LICENSE)
 
+[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Demo-Your-URL-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-domain.com)
+
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -33,6 +35,16 @@
 <br/>
 
 ## 🌌 &nbsp; PROJECT OVERVIEW
+
+<!-- 🖼️ SCREENSHOT PLACEHOLDER 1 - Dashboard Overview -->
+<!-- Replace this with: /docs/dashboard.png -->
+<div align="center">
+  <img src="https://via.placeholder.com/950x450/0D1117/8B5CF6?text=Dashboard+Preview" alt="Dashboard Preview" width="95%" />
+  <br/>
+  <sub><b>Figure 1:</b> League Hub Dashboard - Live standings, fixtures, and news</sub>
+</div>
+
+<br/>
 
 **League Hub** is a complete, production-ready football league management system built for the **UEFA Champions League**. It provides:
 
@@ -43,30 +55,51 @@
 - 🤖 **Discord Bot Integration** for server commands
 - 🎨 **Modern UI** with TailwindCSS & Glassmorphism
 
-## 🚀 &nbsp; QUICK START
+<table>
+<tr>
+<td width="55%">
 
-### 📦 Installation
+### 💡 Core Objective
+Provide a lightweight, self-contained football league management system that runs on a single Node.js server with JSON storage — no external database required.
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/Azu-rial/League-Hub.git
-cd League-Hub
+### 🎯 Key Capabilities
+- **League Standings**: Auto-calculated points, goal difference, and form
+- **Match Management**: Schedule, update, and publish results
+- **Team Management**: Add, edit, retire teams with logos
+- **News System**: Publish articles with images and categories
+- **Admin Panel**: Secure dashboard with role-based access
+- **Discord Bot**: Slash commands for standings, matches, results
 
-# 2. Install dependencies
-npm install
+</td>
+<td width="45%" align="center">
 
-# 3. Install bot dependencies
-cd bot
-npm install
-cd ..
+| Feature | Status | Tech |
+|:---:|:---:|:---:|
+| 🗄️ **Storage** | ✅ JSON | File System |
+| 🔐 **Auth** | ✅ JWT | bcryptjs |
+| 🤖 **Bot** | ✅ Discord.js | v14 |
+| 🎨 **UI** | ✅ Tailwind | CSS |
+| 📊 **Standings** | ✅ Auto | Algorithm |
+| 📱 **Responsive** | ✅ Yes | CSS Grid |
 
-# 4. Configure environment
-cp .env.example .env
-# Edit .env with your values
+</td>
+</tr>
+</table>
 
-# 5. Start the server
-node server/index.js
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-# 6. Start the bot (optional - in new terminal)
-cd bot
-node index.js
+<br/>
+
+## 🛡️ &nbsp; SECURITY ARCHITECTURE
+
+```mermaid
+flowchart LR
+    A["🌐 Client Request"] --> B{"1. JWT Token Check"}
+    B -- No Token --> C["🔴 401 Unauthorized"]
+    B -- Valid Token --> D{"2. Role Check"}
+    D -- Admin --> E["🟢 API Access"]
+    D -- Owner --> F["🟢 Full Access"]
+    D -- Bot API Key --> G["🟢 Bot Access"]
+    E --> H["📊 Data Response"]
+    F --> H
+    G --> H
