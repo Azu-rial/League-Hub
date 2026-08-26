@@ -425,7 +425,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=LEAGUE%20HUB&fontSize=28&fontColor=8B5CF6&animation=twinkling&fontAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=AZU%20PROJECTS&fontSize=28&fontColor=8B5CF6&animation=twinkling&fontAlignY=65" width="100%" />
 
 <br/>
 
