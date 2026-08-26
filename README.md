@@ -156,20 +156,18 @@ graph TD
 
 <!-- 🖼️ ADMIN PANEL SCREENSHOT -->
 <div align="center">
-  <img src="<img width="1512" height="835" alt="image" src="https://github.com/user-attachments/assets/fac709d9-8ad0-4989-9d96-32702e7fd554" />
-" alt="Admin Panel" width="95%" />
+  <img src="ADMIN_PANEL_IMAGE_URL_HERE" alt="Admin Panel" width="95%" />
   <br/>
-  <sub><b>Figure 2:</b> Admin Dashboard - Manage teams, fixtures, and news</sub>
+  <sub><b>Figure 2:</b> League Hub Admin Panel - Manage teams, fixtures, results, and news</sub>
 </div>
 
 <br/>
 
 <!-- 🖼️ DISCORD BOT SCREENSHOT -->
 <div align="center">
-  <img src="<img width="508" height="562" alt="image" src="https://github.com/user-attachments/assets/b9a8f411-1070-45f9-ae06-388a2e0aa0de" />
-" alt="Discord Bot" width="95%" />
+  <img src="DISCORD_BOT_IMAGE_URL_HERE" alt="Discord Bot" width="70%" />
   <br/>
-  <sub><b>Figure 3:</b> Discord Bot - Slash commands for standings and matches</sub>
+  <sub><b>Figure 3:</b> League Hub Discord Bot - Manage league data directly through Discord</sub>
 </div>
 
 <br/>
