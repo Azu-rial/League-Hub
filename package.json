@@ -1,0 +1,19 @@
+{
+  "name": "league-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A polished, admin-friendly football/sports league website with Discord bot integration.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3",
+    "nanoid": "^3.3.18"
+  }
+}
