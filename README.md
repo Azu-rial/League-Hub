@@ -334,10 +334,10 @@ docker run -p 4000:4000 --env-file .env league-hub
 |:---|:---|:---|:---:|
 | `PORT` | Server port | `4000` | ✅ |
 | `JWT_SECRET` | JWT signing key | `your-secret-here` | ✅ |
-| `BOT_API_KEY` | Bot authentication key | `8f4c9e2d...` | ✅ |
+| `BOT_API_KEY` | Bot authentication key | `xxxxxxx...` | ✅ |
 | `CORS_ORIGIN` | Allowed frontend origin | `http://localhost:4000` | ✅ |
-| `BOOTSTRAP_OWNER_USERNAME` | Admin username | `HbeHbe1414` | ✅ |
-| `BOOTSTRAP_OWNER_PASSWORD` | Admin password | `AHBE1414` | ✅ |
+| `BOOTSTRAP_OWNER_USERNAME` | Admin username | `username` | ✅ |
+| `BOOTSTRAP_OWNER_PASSWORD` | Admin password | `password` | ✅ |
 | `NODE_ENV` | Environment | `development` / `production` | ❌ |
 
 </div>
