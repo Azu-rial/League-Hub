@@ -36,7 +36,8 @@
 
 ## 🌌 &nbsp; PROJECT OVERVIEW
 
-<!-- 🖼️ SCREENSHOT PLACEHOLDER 1 - Dashboard Overview -->
+<!-- 🖼️ SCREENSHOT PLACEHOLDER 1 - Dashboard Overview --><img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/b5ffcdbe-5cc2-43fe-ac52-ff20244eff96" />
+
 <div align="center">
   <img src="https://via.placeholder.com/950x450/0D1117/8B5CF6?text=Dashboard+Preview" alt="Dashboard Preview" width="95%" />
   <br/>
