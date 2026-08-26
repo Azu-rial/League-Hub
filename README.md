@@ -1,8 +1,3 @@
-You're right, it got cut off! Here's the **COMPLETE README** in one message. Copy this entire thing:
-
----
-
-```markdown
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0D1117&height=320&section=header&text=LEAGUE%20HUB&fontSize=56&fontColor=8B5CF6&animation=fadeIn&fontAlignY=52&desc=UEFA%20CHAMPIONS%20LEAGUE%20DASHBOARD%20%E2%80%94%20FULL%20STACK%20FOOTBALL%20MANAGEMENT&descAlignY=74&descSize=18&descColor=6E7681&stroke=8B5CF6&strokeWidth=2" width="100%" />
@@ -436,33 +431,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ by [Azu-rial](https://github.com/Azu-rial)**
 
 </div>
-```
-
----
-
-## 📸 SCREENSHOTS TO ADD
-
-Create a `docs/` folder and add these images:
-
-| Placeholder | What to screenshot | File Name |
-|-------------|-------------------|-----------|
-| `<!-- 🖼️ SCREENSHOT PLACEHOLDER 1 -->` | Dashboard overview | `dashboard.png` |
-| `<!-- 🖼️ SCREENSHOT PLACEHOLDER 2 -->` | Admin panel | `admin-panel.png` |
-| `<!-- 🖼️ SCREENSHOT PLACEHOLDER 3 -->` | Discord bot | `discord-bot.png` |
-
----
-
-## 💾 SAVE AND PUSH:
-
-```powershell
-# Open README.md in Notepad
-notepad README.md
-
-# Paste the entire content above, save, then:
-
-git add README.md
-git commit -m "Add complete professional README with placeholders"
-git push -u origin main
-```
-
-Now your README is **FIRE** 🔥 and ready for screenshots! Let me know when you deploy! 🚀
