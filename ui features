@@ -154,18 +154,23 @@ graph TD
 
 ## 🎨 &nbsp; UI FEATURES
 
+## 🎨 &nbsp; UI FEATURES
+
+<!-- 🖼️ ADMIN PANEL SCREENSHOT -->
+## 🎨 &nbsp; UI FEATURES
+
+<!-- 🖼️ ADMIN PANEL SCREENSHOT -->
 <div align="center">
-  <img src="<img width="1512" height="835" alt="image" src="https://github.com/user-attachments/assets/19bb1ee8-7eef-42fc-b202-67bf93bbd176" />
-" alt="Admin Panel" width="95%" />
+  <img src="" alt="Admin Panel" width="95%" />
   <br/>
   <sub><b>Figure 2:</b> Admin Dashboard - Manage teams, fixtures, and news</sub>
 </div>
 
 <br/>
 
+<!-- 🖼️ DISCORD BOT SCREENSHOT -->
 <div align="center">
-  <img src="<img width="508" height="562" alt="image" src="https://github.com/user-attachments/assets/db0c4540-fd5b-4bf6-b63e-8022b09d6e20" />
-" alt="Discord Bot" width="95%" />
+  <img src="" alt="Discord Bot" width="95%" />
   <br/>
   <sub><b>Figure 3:</b> Discord Bot - Slash commands for standings and matches</sub>
 </div>
