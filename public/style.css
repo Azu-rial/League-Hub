@@ -11,3 +11,6 @@
 .kpis5{grid-template-columns:repeat(5,1fr)}
 .board .standings{min-width:0}
 @media(max-width:900px){.kpis5{grid-template-columns:repeat(2,1fr)}}
+
+/* Keep image logos crisp without changing the admin sidebar text/emoji brandmark. */
+img.brandmark{display:block;width:35px;height:35px;min-width:35px;object-fit:contain;border-radius:0;background:transparent;box-shadow:none;flex-shrink:0}
