@@ -33,7 +33,7 @@ client.once('ready', () => {
     console.log(`✅ Logged in as ${client.user.tag}`);
     console.log(`📡 Connected to API: ${API_URL}`);
     client.user.setPresence({
-        activities: [{ name: '⚽ UEFA Champions League', type: 3 }],
+        activities: [{ name: '⚽ Champions League S2', type: 3 }],
         status: 'online'
     });
 });
@@ -60,6 +60,15 @@ client.on('interactionCreate', async interaction => {
             case 'news':
                 await handleNews(interaction);
                 break;
+            case 'player':
+                await handlePlayer(interaction);
+                break;
+            case 'stat':
+                await handleStat(interaction);
+                break;
+            case 'stats':
+                await handleStats(interaction);
+                break;
             case 'help':
                 await handleHelp(interaction);
                 break;
@@ -68,11 +77,9 @@ client.on('interactionCreate', async interaction => {
         }
     } catch (error) {
         console.error('Command error:', error);
-        const reply = interaction.deferred ? interaction.editReply : interaction.reply;
-        await reply({ 
-            content: `❌ Error: ${error.message}`,
-            ephemeral: true 
-        });
+        const payload = { content: `❌ Error: ${error.message}` };
+        if (interaction.deferred || interaction.replied) await interaction.editReply(payload);
+        else await interaction.reply({ ...payload, ephemeral: true });
     }
 });
 
@@ -90,7 +97,7 @@ async function handleStandings(interaction) {
         .setTitle('🏆 League Standings')
         .setDescription(`**${data.length}** teams competing`)
         .setTimestamp()
-        .setFooter({ text: 'UEFA Champions League • 2025/2026' });
+        .setFooter({ text: 'Champions League • Season 2' });
 
     // Top 10 teams
     const top10 = data.slice(0, 10);
@@ -266,6 +273,43 @@ async function handleNews(interaction) {
     await interaction.editReply({ embeds: [embed] });
 }
 
+async function handlePlayer(interaction) {
+    const sub = interaction.options.getSubcommand();
+    if (sub === 'sign') {
+        const user = interaction.options.getUser('user');
+        const r = await call('/players/sign', 'POST', {
+            name: interaction.options.getString('player'),
+            team: interaction.options.getString('team'),
+            discordId: user ? user.id : undefined
+        });
+        return interaction.editReply(`✅ **${r.player.name}** signed to **${r.team}**.`);
+    }
+    if (sub === 'release') {
+        const r = await call('/players/release', 'POST', { player: interaction.options.getString('player') });
+        return interaction.editReply(`✅ **${r.name}** is now a free agent.`);
+    }
+}
+
+async function handleStat(interaction) {
+    const r = await call('/stats/add', 'POST', {
+        player: interaction.options.getString('player'),
+        stat: interaction.options.getString('stat'),
+        amount: interaction.options.getInteger('amount') ?? 1
+    });
+    await interaction.editReply(`✅ **${r.player}** — ${r.stat} (manual) is now **${r.manual}**.`);
+}
+
+async function handleStats(interaction) {
+    const key = interaction.options.getString('category') || 'goals';
+    const titles = { goals: 'Top scorers', assists: 'Most assists', cleanSheets: 'Most clean sheets', tackles: 'Most tackles', saves: 'Most saves' };
+    const s = await call('/stats?limit=10');
+    const rows = s.boards[key] || [];
+    if (!rows.length) return interaction.editReply('📭 No stats recorded yet.');
+    const text = rows.map((r, i) => `${i + 1}. **${r.name}** (${r.teamShort || 'FA'}) — **${r[key]}**`).join('\n');
+    const embed = new EmbedBuilder().setColor(0x8b5cf6).setTitle(`📊 ${titles[key]}`).setDescription(text).setTimestamp();
+    await interaction.editReply({ embeds: [embed] });
+}
+
 async function handleHelp(interaction) {
     const embed = new EmbedBuilder()
         .setColor(0x8b5cf6)
@@ -278,7 +322,10 @@ async function handleHelp(interaction) {
             { name: '⚽ /team info', value: 'Get team information', inline: false },
             { name: '📅 /fixture add', value: 'Schedule a new match', inline: false },
             { name: '📝 /result add', value: 'Publish a match result', inline: false },
-            { name: '📰 /news post', value: 'Publish league news', inline: false }
+            { name: '📰 /news post', value: 'Publish league news', inline: false },
+            { name: '🖊️ /player sign · /player release', value: 'Sign a player to a team / release them', inline: false },
+            { name: '📈 /stat add', value: 'Add a goal, assist, clean sheet, tackle or save', inline: false },
+            { name: '🏅 /stats', value: 'Show a stats leaderboard', inline: false }
         )
         .setFooter({ text: '🔑 Admin commands require proper permissions' });
 

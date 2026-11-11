@@ -1,6 +1,12 @@
 const jwt=require('jsonwebtoken');
+const crypto=require('crypto');
 const {read}=require('./db');
-const secret=process.env.JWT_SECRET||'dev-secret';
+let secret=process.env.JWT_SECRET;
+if(!secret){
+  if(process.env.NODE_ENV==='production'){console.error('JWT_SECRET is required in production.');process.exit(1);}
+  secret=crypto.randomBytes(32).toString('hex');
+  console.warn('[auth] JWT_SECRET not set - using a random secret (logins reset on every restart). Set it in .env.');
+}
 const botKey=process.env.BOT_API_KEY||'';
 function identify(req,res,next){
   if(botKey && req.get('x-api-key')===botKey){req.actor={type:'bot',id:'discord-bot',username:'Discord Bot',role:'owner'};return next();}
