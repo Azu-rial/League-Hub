@@ -88,6 +88,14 @@ Provide a lightweight, self-contained football league management system that run
 
 <br/>
 
+## 🔄 &nbsp; SEASON 2 REWORK (franchise league)
+
+- **Reset:** `npm run reset-season -- --yes` (add `--keep-news` to keep articles) wipes old teams/fixtures/results and seeds the 8 franchises from `server/lib/seed.js`. The owner can also do it from *Admin → Settings → Danger zone*. Run it on the deployed server where the real `storage/db.json` lives.
+- **Teams** now have a franchise owner, Discord role ID and roster cap (20).
+- **Players & signings:** *Admin → Players*, or the bot (`/player sign`, `/player release`), which calls `POST /api/players/sign`.
+- **Stats, 3 ways:** quick add, per-match entry (opens after you publish a result), CSV import. Public page: `#/stats`; each team page shows its squad and top performers.
+- **Security fixes:** JWT secret is no longer a default, `CORS_ORIGIN` is honoured, PATCH routes only accept whitelisted fields, bot management commands require *Manage Server* (re-run `npm run register` in `bot/`).
+
 ## 🛡️ &nbsp; SECURITY ARCHITECTURE
 
 ```mermaid

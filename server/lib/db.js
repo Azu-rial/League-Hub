@@ -7,11 +7,12 @@ const file = path.join(dir, 'db.json');
 const defaults = {
   admins: [],
   teams: [],
+  players: [],
   matches: [],
   news: [],
   settings: {
-    leagueName: 'Premier League Hub',
-    seasonName: '2026 Season',
+    leagueName: 'Champions League',
+    seasonName: 'Season 2',
     tagline: 'Fixtures. Results. Standings. One place.',
     logoUrl: '',
     primaryColor: '#8b5cf6',

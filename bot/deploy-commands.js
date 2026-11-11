@@ -1,5 +1,6 @@
 require('dotenv').config();
-const { REST, Routes, SlashCommandBuilder } = require('discord.js');
+const { REST, Routes, SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
+const ADMIN = PermissionFlagsBits.ManageGuild; // only members with Manage Server see/use management commands
 
 const commands = [
     // Standings
@@ -10,6 +11,7 @@ const commands = [
     // Team commands
     new SlashCommandBuilder()
         .setName('team')
+        .setDefaultMemberPermissions(ADMIN)
         .setDescription('Manage teams')
         .addSubcommand(sub => sub
             .setName('add')
@@ -36,6 +38,7 @@ const commands = [
     // Fixture commands
     new SlashCommandBuilder()
         .setName('fixture')
+        .setDefaultMemberPermissions(ADMIN)
         .setDescription('Manage fixtures')
         .addSubcommand(sub => sub
             .setName('add')
@@ -52,6 +55,7 @@ const commands = [
     // Result commands
     new SlashCommandBuilder()
         .setName('result')
+        .setDefaultMemberPermissions(ADMIN)
         .setDescription('Manage results')
         .addSubcommand(sub => sub
             .setName('add')
@@ -65,6 +69,7 @@ const commands = [
     // News commands
     new SlashCommandBuilder()
         .setName('news')
+        .setDefaultMemberPermissions(ADMIN)
         .setDescription('Publish news')
         .addSubcommand(sub => sub
             .setName('post')
@@ -77,6 +82,47 @@ const commands = [
             .addStringOption(opt => opt.setName('category').setDescription('Category'))
             .addStringOption(opt => opt.setName('image_url').setDescription('Image URL'))
         ),
+
+
+    // Players & signings
+    new SlashCommandBuilder()
+        .setName('player')
+        .setDescription('Manage players and signings')
+        .setDefaultMemberPermissions(ADMIN)
+        .addSubcommand(sub => sub
+            .setName('sign')
+            .setDescription('Sign a player to a team (creates the player if new)')
+            .addStringOption(opt => opt.setName('player').setDescription('Player name').setRequired(true))
+            .addStringOption(opt => opt.setName('team').setDescription('Team name or tag').setRequired(true))
+            .addUserOption(opt => opt.setName('user').setDescription('Discord user (links their ID)'))
+        )
+        .addSubcommand(sub => sub
+            .setName('release')
+            .setDescription('Release a player to free agency')
+            .addStringOption(opt => opt.setName('player').setDescription('Player name or Discord ID').setRequired(true))
+        ),
+
+    // Stats
+    new SlashCommandBuilder()
+        .setName('stat')
+        .setDescription('Add stats to a player')
+        .setDefaultMemberPermissions(ADMIN)
+        .addSubcommand(sub => sub
+            .setName('add')
+            .setDescription('Add (or subtract) a stat')
+            .addStringOption(opt => opt.setName('player').setDescription('Player name or Discord ID').setRequired(true))
+            .addStringOption(opt => opt.setName('stat').setDescription('Stat').setRequired(true).addChoices(
+                { name: 'Goals', value: 'goals' }, { name: 'Assists', value: 'assists' },
+                { name: 'Clean sheets', value: 'cleanSheets' }, { name: 'Tackles', value: 'tackles' }, { name: 'Saves', value: 'saves' }))
+            .addIntegerOption(opt => opt.setName('amount').setDescription('Amount (default 1, negative to subtract)'))
+        ),
+
+    new SlashCommandBuilder()
+        .setName('stats')
+        .setDescription('Show a stats leaderboard')
+        .addStringOption(opt => opt.setName('category').setDescription('Category (default goals)').addChoices(
+            { name: 'Top scorers', value: 'goals' }, { name: 'Most assists', value: 'assists' },
+            { name: 'Most clean sheets', value: 'cleanSheets' }, { name: 'Most tackles', value: 'tackles' }, { name: 'Most saves', value: 'saves' })),
 
     // Help
     new SlashCommandBuilder()
