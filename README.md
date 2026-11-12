@@ -1,4 +1,4 @@
-<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/f5c1315f-bd26-4aae-bb9c-a022aa03a306" /><div align="center">
+<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0D1117&height=320&section=header&text=LEAGUE%20HUB&fontSize=56&fontColor=8B5CF6&animation=fadeIn&fontAlignY=52&desc=UEFA%20CHAMPIONS%20LEAGUE%20DASHBOARD%20%E2%80%94%20FULL%20STACK%20FOOTBALL%20MANAGEMENT&descAlignY=74&descSize=18&descColor=6E7681&stroke=8B5CF6&strokeWidth=2" width="100%" />
 
@@ -12,7 +12,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3800&pause=600&color=6E7681&background=0D111700&center=true&vCenter=true&multiline=false&repeat=true&width=750&height=35&lines=Node.js+%7C+Express+%7C+TailwindCSS+%7C+Discord.js;JSON+Storage+%7C+JWT+Auth+%7C+REST+API" alt="Subtitle typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=3800&pause=600&color=6E7681&background=0D111700&center=true&vCenter=true&multiline=false&repeat=true&width=750&height=35&lines=Node.js+%7C+Express+%7C+Vanilla+JS+%7C+Discord.js;JSON+Storage+%7C+JWT+Auth+%7C+REST+API" alt="Subtitle typing"/>
 
 </div>
 
@@ -22,11 +22,11 @@
 
 [![Status](https://img.shields.io/badge/%E2%9C%85%20Status-Active-8B5CF6?style=for-the-badge&logo=github&logoColor=white)]()
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](package.json)
-[![Express](https://img.shields.io/badge/Express-4.18-000000?style=for-the-badge&logo=express&logoColor=white)](package.json)
-[![Discord](https://img.shields.io/badge/Discord.js-14.14-5865F2?style=for-the-badge&logo=discord&logoColor=white)](package.json)
-[![License](https://img.shields.io/badge/License-MIT-A371F7?style=for-the-badge)](LICENSE)
+[![Express](https://img.shields.io/badge/Express-4.x-000000?style=for-the-badge&logo=express&logoColor=white)](package.json)
+[![Discord](https://img.shields.io/badge/Discord.js-14.x-5865F2?style=for-the-badge&logo=discord&logoColor=white)](package.json)
+![License](https://img.shields.io/badge/License-MIT-A371F7?style=for-the-badge)
 
-[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Demo-Your-URL-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://league-hub-zeta.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Demo-Open%20Site-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://league-hub-zeta.vercel.app/)
 
 </div>
 
@@ -48,12 +48,12 @@
 
 **League Hub** is a complete, production-ready football league management system built for the **UEFA Champions League**. It provides:
 
-- 📊 **Live League Standings** with automatic ELO/points calculation
+- 📊 **Live League Standings** with automatic points calculation
 - 📅 **Match Scheduling & Results** with real-time updates
 - 📰 **News Management** with image support
 - 🔐 **Admin Dashboard** with full CRUD operations
 - 🤖 **Discord Bot Integration** for server commands
-- 🎨 **Modern UI** with TailwindCSS & Glassmorphism
+- 🎨 **Modern UI** in plain CSS with a glassmorphism look
 
 <table>
 <tr>
@@ -78,7 +78,7 @@ Provide a lightweight, self-contained football league management system that run
 | 🗄️ **Storage** | ✅ JSON | File System |
 | 🔐 **Auth** | ✅ JWT | bcryptjs |
 | 🤖 **Bot** | ✅ Discord.js | v14 |
-| 🎨 **UI** | ✅ Tailwind | CSS |
+| 🎨 **UI** | ✅ Vanilla | JS + CSS |
 | 📊 **Standings** | ✅ Auto | Algorithm |
 | 📱 **Responsive** | ✅ Yes | CSS Grid |
 
@@ -92,7 +92,8 @@ Provide a lightweight, self-contained football league management system that run
 
 ## 🔄 &nbsp; SEASON 2 REWORK (franchise league)
 
-- **Reset:** `npm run reset-season -- --yes` (add `--keep-news` to keep articles) wipes old teams/fixtures/results and seeds the 8 franchises from `server/lib/seed.js`. The owner can also do it from *Admin → Settings → Danger zone*. Run it on the deployed server where the real `storage/db.json` lives.
+- **Reset (only to start a brand-new season):** `npm run reset-season -- --yes` (add `--keep-news` to keep articles) wipes teams, **players**, fixtures and results, then seeds the 8 franchises from `server/lib/seed.js`. Don't run it if players are already loaded. The owner can also do it from *Admin → Settings → Danger zone*.
+- **Vercel note:** the live site reads the committed `storage/db.json`. Vercel can't keep files that the server writes, so edits made in the admin panel on the live site may not stick. Edit data locally, commit `storage/db.json`, and push (or host on Render/Railway/a VPS with a persistent disk).
 - **Teams** now have a franchise owner, Discord role ID and roster cap (20).
 - **Players & signings:** *Admin → Players*, or the bot (`/player sign`, `/player release`), which calls `POST /api/players/sign`.
 - **Stats, 3 ways:** quick add, per-match entry (opens after you publish a result), CSV import. Public page: `#/stats`; each team page shows its squad and top performers.
@@ -149,7 +150,7 @@ graph TD
 
 | Layer | Component | Technology |
 |:---:|:---|:---:|
-| `01` | **Frontend** | HTML + TailwindCSS + Vanilla JS |
+| `01` | **Frontend** | HTML + CSS + Vanilla JS |
 | `02` | **Backend** | Node.js + Express.js |
 | `03` | **Auth** | JWT + bcryptjs |
 | `04` | **Storage** | JSON File System |
@@ -281,6 +282,10 @@ POST /api/teams
 | `/fixture add` | Schedule a match | `/fixture add home_team_id:abc123 away_team_id:def456 date:2026-09-15T20:00:00` |
 | `/result add` | Post match result | `/result add match_id:abc123 home_score:3 away_score:1` |
 | `/news post` | Publish news | `/news post title:El Clásico! body:Full article...` |
+| `/player sign` | Sign a player to a team | `/player sign player:Rafa team:BVB` |
+| `/player release` | Release a player | `/player release player:Rafa` |
+| `/stat add` | Add a goal, assist, clean sheet, tackle or save | `/stat add player:Rafa stat:goals amount:1` |
+| `/stats` | Show a stats leaderboard | `/stats category:goals` |
 | `/help` | Show all commands | `/help` |
 
 </div>
@@ -341,7 +346,7 @@ docker run -p 4000:4000 --env-file .env league-hub
 | `PORT` | Server port | `4000` | ✅ |
 | `JWT_SECRET` | JWT signing key | `your-secret-here` | ✅ |
 | `BOT_API_KEY` | Bot authentication key | `xxxxxxx...` | ✅ |
-| `CORS_ORIGIN` | Allowed frontend origin | `http://localhost:4000` | ✅ |
+| `CORS_ORIGIN` | Allowed origins (comma-separated); empty = allow all | `http://localhost:4000` | ❌ |
 | `BOOTSTRAP_OWNER_USERNAME` | Admin username | `username` | ✅ |
 | `BOOTSTRAP_OWNER_PASSWORD` | Admin password | `password` | ✅ |
 | `NODE_ENV` | Environment | `development` / `production` | ❌ |
@@ -367,9 +372,14 @@ league-hub/
 │   ├── lib/              # Libraries
 │   │   ├── auth.js       # JWT authentication
 │   │   ├── db.js         # Database functions
-│   │   └── standings.js  # Standings calculator
+│   │   ├── standings.js  # Standings calculator
+│   │   ├── stats.js      # Player stats & leaderboards
+│   │   └── seed.js       # Season 2 franchise seed
 │   └── routes/
-│       └── api.js        # API routes
+│       ├── api.js        # Teams, matches, news, settings
+│       └── league.js     # Players, stats, signings, CSV import
+├── scripts/
+│   └── reset-season.js   # Wipe & re-seed a season
 ├── bot/                  # Discord Bot
 │   ├── index.js          # Bot entry point
 │   └── deploy-commands.js # Slash command registration
@@ -390,7 +400,7 @@ league-hub/
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,js,html,css,tailwind,discord,git,github,docker&perline=5&theme=dark" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,js,html,css,discord,git,github,docker&perline=5&theme=dark" />
 
 </div>
 
@@ -401,7 +411,7 @@ league-hub/
 | **Backend** | Node.js + Express.js |
 | **Authentication** | JWT + bcryptjs |
 | **Storage** | JSON File System |
-| **Frontend** | HTML + TailwindCSS + Vanilla JS |
+| **Frontend** | HTML + CSS + Vanilla JS |
 | **Bot** | Discord.js v14 |
 | **Deployment** | Render / Railway / Docker |
 
@@ -423,7 +433,7 @@ league-hub/
 
 ## 📄 &nbsp; LICENSE
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the license badge above. (Add a `LICENSE` file to the repo to make it official.)
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
