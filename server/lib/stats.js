@@ -17,7 +17,7 @@ function statsFor(d,limit=10){
   const mt=matchTotals(d);
   const players=d.players.filter(p=>p.active!==false).map(p=>{
     const team=d.teams.find(t=>t.id===p.teamId);
-    const row={playerId:p.id,name:p.name,position:p.position||'',number:p.number||'',teamId:p.teamId||'',teamName:team?.name||'Free agent',teamShort:team?.shortName||team?.name||'',logoUrl:team?.logoUrl||'',apps:mt[p.id].apps};
+    const row={playerId:p.id,name:p.name,position:p.position||'',number:p.number||'',teamId:p.teamId||'',teamName:team?.name||'Free agent',teamShort:team?.shortName||team?.name||'',logoUrl:team?.logoUrl||'',teamColor:team?.color||'',teamTag:team?.tag||'',apps:mt[p.id].apps};
     KEYS.forEach(k=>{row[k]=Math.max(0,num(p.base?.[k])+mt[p.id][k])});
     return row;
   });
