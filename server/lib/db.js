@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { DEFAULT_LOGOS } = require('./logos');
 
 const dir = path.join(__dirname, '..', '..', 'storage');
 const file = path.join(dir, 'db.json');
