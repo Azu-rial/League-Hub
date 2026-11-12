@@ -15,7 +15,9 @@
       "description": "",
       "slug": "borussia-dortmund",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "hagi's good boy",
+      "manager": "HaytCat"
     },
     {
       "id": "Fc8SdavNPi",
@@ -31,7 +33,9 @@
       "description": "",
       "slug": "real-madrid",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "Crazy_Normal",
+      "manager": "iHxrveyST"
     },
     {
       "id": "ABRMRWbz77",
@@ -47,7 +51,9 @@
       "description": "",
       "slug": "barcelona",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "LENNZZZZZ",
+      "manager": "wyrez."
     },
     {
       "id": "0GYSYbqA0o",
@@ -63,7 +69,9 @@
       "description": "",
       "slug": "paris-saint-germain",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "moya_2011j",
+      "manager": "velo"
     },
     {
       "id": "AyJTIbIK44",
@@ -79,7 +87,9 @@
       "description": "",
       "slug": "ac-milan",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "",
+      "manager": "yogi"
     },
     {
       "id": "yrJ9q6Nd67",
@@ -95,7 +105,9 @@
       "description": "",
       "slug": "manchester-united",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "",
+      "manager": "Neshee"
     },
     {
       "id": "h4QNUdNsNc",
@@ -111,7 +123,9 @@
       "description": "",
       "slug": "chelsea",
       "active": true,
-      "createdAt": "2026-11-12T00:00:00.000Z"
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "bolacha",
+      "manager": "awex"
     },
     {
       "id": "hRmXGAzfBi",
@@ -127,10 +141,2274 @@
       "description": "",
       "slug": "inter-milan",
       "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z",
+      "assistantManager": "jvsplexx",
+      "manager": "ph4nt_0m"
+    }
+  ],
+  "players": [
+    {
+      "id": "ts2-0001",
+      "name": "r3venantt",
+      "discordId": "941311720352268338",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0002",
+      "name": "12near",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0003",
+      "name": "6va3",
+      "discordId": "1323230816288899076",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0004",
+      "name": "slewz_y",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0005",
+      "name": "uuuriazz",
+      "discordId": "1473076868398710916",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0006",
+      "name": "tomcr506",
+      "discordId": "644342306887172136",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0007",
+      "name": "DemonzinhoKawaiUwuthekinghbe",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0008",
+      "name": "Lynn1xlynn1x",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0009",
+      "name": "Minimat",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0010",
+      "name": "Loki_Slayer25",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0011",
+      "name": "ryowuxi",
+      "discordId": "930135269460553728",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0012",
+      "name": "recex1",
+      "discordId": "1549457928862306505",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0013",
+      "name": "cicless",
+      "discordId": "",
+      "teamId": "ABRMRWbz77",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0014",
+      "name": "diegovot",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0015",
+      "name": "red1zk",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0016",
+      "name": "KR_Snowy",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0017",
+      "name": "hxju0419",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0018",
+      "name": "ttnokia",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0019",
+      "name": "fer",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0020",
+      "name": "kenarkiqy",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0021",
+      "name": "ZIUTEK",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0022",
+      "name": "Seeyun",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0023",
+      "name": "Ney",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0024",
+      "name": "virtuous",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0025",
+      "name": "pishaaaaaaa",
+      "discordId": "1535133245283373168",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0026",
+      "name": "Dr_dylansito",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0027",
+      "name": "Fanti",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0028",
+      "name": "maximoware",
+      "discordId": "1529997288229965990",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0029",
+      "name": "kanannosoykanan",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0030",
+      "name": "williamamus",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0031",
+      "name": "pzn",
+      "discordId": "",
+      "teamId": "UrdZggKzJE",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0032",
+      "name": "inscritoo",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0033",
+      "name": "Rio",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0034",
+      "name": "fico",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0035",
+      "name": "Santzware",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0036",
+      "name": "xeerien",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0037",
+      "name": ".michael_kaiser",
+      "discordId": "672079758632288257",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0038",
+      "name": "Mizu",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0039",
+      "name": "Abyss9",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0040",
+      "name": "elzhabal",
+      "discordId": "404262411315707908",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0041",
+      "name": "q_cold",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0042",
+      "name": "Jav",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0043",
+      "name": "Robot_kubiki",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0044",
+      "name": "Valery",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0045",
+      "name": "dw9g",
+      "discordId": "1008798731975544942",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0046",
+      "name": "vqk",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0047",
+      "name": "Godsent_Pedro",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0048",
+      "name": "veixca",
+      "discordId": "1364360335737360437",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0049",
+      "name": "yum",
+      "discordId": "",
+      "teamId": "Fc8SdavNPi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0050",
+      "name": "vorvos",
+      "discordId": "742677543504707645",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0051",
+      "name": "ninjadiyar_gg",
+      "discordId": "1119967961885704252",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0052",
+      "name": "17xayan",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0053",
+      "name": "lowc0rtisol.",
+      "discordId": "1533083812446339122",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0054",
+      "name": "Kaneki",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0055",
+      "name": "negititi",
+      "discordId": "645044884566179842",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0056",
+      "name": "arxi9n",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0057",
+      "name": "YaheeeL_qc",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0058",
+      "name": "lory",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0059",
+      "name": "ryze0361",
+      "discordId": "1487783302130827296",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0060",
+      "name": "Lolet",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0061",
+      "name": "Ozzy",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0062",
+      "name": "Santiago_Fly",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0063",
+      "name": "jotape",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0064",
+      "name": "Rubii",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0065",
+      "name": "solesprings",
+      "discordId": "842503278906441769",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0066",
+      "name": "GutiOwnsMe",
+      "discordId": "",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0067",
+      "name": "pato2.0s",
+      "discordId": "1218069190842515497",
+      "teamId": "0GYSYbqA0o",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0068",
+      "name": "kuzan",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0069",
+      "name": "Irsc",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0070",
+      "name": "kamrahh",
+      "discordId": "1153046505796677743",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0071",
+      "name": "apopatfbarodzhab_50881",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0072",
+      "name": "GoatDeath",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0073",
+      "name": "xzamxr",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0074",
+      "name": "Espathra",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0075",
+      "name": "Guti",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0076",
+      "name": "Tils",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0077",
+      "name": "UCHyBisnago",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0078",
+      "name": "sukizeq",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0079",
+      "name": "Catloafa",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0080",
+      "name": "DANYBALLdanyball_",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0081",
+      "name": "YoMinha",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0082",
+      "name": "qcsnq",
+      "discordId": "1258177265217572897",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0083",
+      "name": "slash",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0084",
+      "name": "Cure",
+      "discordId": "",
+      "teamId": "AyJTIbIK44",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0085",
+      "name": "Texis",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0086",
+      "name": "ygzz8888888888",
+      "discordId": "1554773321143422986",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0087",
+      "name": "vipsone",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0088",
+      "name": "themfz",
+      "discordId": "1014997440564306031",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0089",
+      "name": "Ryukkj",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0090",
+      "name": "Nyrynhu",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0091",
+      "name": "Coelho",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0092",
+      "name": "kaederest2",
+      "discordId": "1324431222666952750",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0093",
+      "name": "SuperThyme",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0094",
+      "name": "mrhackdemon",
+      "discordId": "1464083759593816218",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0095",
+      "name": "k_iw711",
+      "discordId": "1318552389615091804",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0096",
+      "name": "CrossFIT",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0097",
+      "name": "samuxlabsurd",
+      "discordId": "892725692981207040",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0098",
+      "name": "blud",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0099",
+      "name": "Lor3Aura_do67",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0100",
+      "name": "Razarstranger_019",
+      "discordId": "",
+      "teamId": "yrJ9q6Nd67",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0101",
+      "name": "qwps",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0102",
+      "name": "josehh556hh",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0103",
+      "name": "ItzThatViper",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0104",
+      "name": "jv",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0105",
+      "name": "Winny",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0106",
+      "name": "sheluvspri",
+      "discordId": "812593201000611860",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0107",
+      "name": "WhoAreYou",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0108",
+      "name": "nerickk10",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0109",
+      "name": "leozito",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0110",
+      "name": "brx.x",
+      "discordId": "769245064571781141",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0111",
+      "name": "P_99",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0112",
+      "name": "_taraze",
+      "discordId": "1387841338678181983",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0113",
+      "name": "KING_NASR",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0114",
+      "name": "RH01",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0115",
+      "name": "Pure",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0116",
+      "name": "ping-chingassassinpro6980",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0117",
+      "name": "Domates",
+      "discordId": "",
+      "teamId": "h4QNUdNsNc",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0118",
+      "name": "WhiteeLoveDemon",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0119",
+      "name": "goku_123v5",
+      "discordId": "1291050862164316261",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0120",
+      "name": "xL4ww",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0121",
+      "name": "Patrick Jane",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0122",
+      "name": "xques.",
+      "discordId": "1503080142321225959",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0123",
+      "name": "j1xsmo",
+      "discordId": "1169310844413296781",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0124",
+      "name": "Indribo",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0125",
+      "name": "Yinx",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0126",
+      "name": "Cristophere",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0127",
+      "name": "Lkf7",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0128",
+      "name": "reidwww",
+      "discordId": "1465701958491963432",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0129",
+      "name": "Fran",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0130",
+      "name": "1vbw",
+      "discordId": "1214941854743658588",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0131",
+      "name": "NEW_ARES",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0132",
+      "name": "gioo",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
+      "createdAt": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "id": "ts2-0133",
+      "name": "Sam",
+      "discordId": "",
+      "teamId": "hRmXGAzfBi",
+      "position": "",
+      "number": "",
+      "base": {
+        "goals": 0,
+        "assists": 0,
+        "cleanSheets": 0,
+        "tackles": 0,
+        "saves": 0
+      },
+      "active": true,
       "createdAt": "2026-11-12T00:00:00.000Z"
     }
   ],
-  "players": [],
   "matches": [],
   "news": [],
   "settings": {
