@@ -1,26 +1,26 @@
 /* League Hub - night match on a pitch. Mown-grass stripes and pitch markings sit behind frosted glass, so the blur has something real to blur.
    One family (Archivo, normal + expanded widths), one accent (floodlight gold), three radii by role. */
+/* League Hub - liquid glass over a live fluid. Libraries do the effects (webgl-fluid, Hyalite, GSAP); this file only styles around them.
+   Every glass rule falls back to plain frosted blur if a library does not load. One accent (ice blue), one family (Archivo). */
 :root{
-  --bg:#07161a;--text:#eef4f1;--muted:#a3b8b0;--faint:#7e968d;
-  --glass:rgba(235,255,247,.055);--glass-2:rgba(235,255,247,.10);--glass-strong:rgba(8,26,24,.62);
-  --edge:rgba(235,255,247,.14);--edge-soft:rgba(235,255,247,.07);--edge-low:rgba(0,0,0,.28);
-  --acc:#f0c050;--acc-ink:#1b1400;
-  --win:#5fd49a;--draw:#8fa59c;--loss:#ef7371;
+  --bg:#05080f;--text:#eaf2ff;--muted:#a8b6cf;--faint:#7d8ca6;
+  --glass:rgba(8,14,30,.34);--glass-2:rgba(180,210,255,.10);--glass-strong:rgba(6,11,24,.58);
+  --edge:rgba(200,225,255,.14);--edge-soft:rgba(200,225,255,.07);--edge-low:rgba(0,0,0,.3);
+  --acc:#8fd3ff;--acc-ink:#04111f;
+  --win:#5fd49a;--draw:#8fa0b8;--loss:#ef7371;
   --r-lg:22px;--r:16px;--r-sm:10px;
-  --blur:blur(18px) saturate(135%);
+  --blur:blur(16px) saturate(140%);
   --ui:'Archivo','Helvetica Neue',Arial,system-ui,sans-serif;
   --line:var(--edge);--line-soft:var(--edge-soft);--raised:var(--glass-2);--surface:var(--glass);--acc-text:var(--acc)
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;min-height:100vh;color:var(--text);font:400 15px/1.5 var(--ui);font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased;
-  background:
-   linear-gradient(180deg,rgba(7,22,26,0) 0,rgba(4,12,14,.55) 100%),
-   repeating-linear-gradient(90deg,rgba(120,220,170,.045) 0 90px,rgba(0,0,0,0) 90px 180px),
-   radial-gradient(1200px 700px at 50% -10%,#14403a 0,#0b2623 45%,#07161a 100%);
-  background-attachment:fixed}
-/* pitch markings: fixed behind everything, scales to the viewport */
-body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.14;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000' preserveAspectRatio='xMidYMid slice' fill='none' stroke='%23bff0dc' stroke-width='3'><rect x='70' y='70' width='1460' height='860'/><path d='M800 70V930'/><circle cx='800' cy='500' r='135'/><circle cx='800' cy='500' r='6' fill='%23bff0dc'/><rect x='70' y='290' width='250' height='420'/><rect x='70' y='400' width='95' height='200'/><path d='M320 410A135 135 0 0 1 320 590'/><rect x='1280' y='290' width='250' height='420'/><rect x='1435' y='400' width='95' height='200'/><path d='M1280 410A135 135 0 0 0 1280 590'/></svg>") center/cover no-repeat}
+  background:radial-gradient(1100px 700px at 20% -10%,#12315a 0,#081426 50%,#05080f 100%) fixed}
+/* live fluid (webgl-fluid) pinned behind the page, tinted to one hue so it reads as a material, not a rainbow */
+#fluid{position:fixed;inset:0;width:100vw;height:100vh;z-index:-2;pointer-events:none;display:block;
+  filter:grayscale(1) sepia(1) hue-rotate(172deg) saturate(2.4) brightness(.85);opacity:.85}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(120% 90% at 50% 40%,rgba(5,8,15,0) 40%,rgba(5,8,15,.65) 100%)}
 a{color:inherit;text-decoration:none}
 button,input,textarea,select{font:inherit}
 button{cursor:pointer}
@@ -222,6 +222,14 @@ span.team-biglogo{display:grid;font-size:15px;border-radius:12px}
 .login-box p{color:var(--muted);font-size:14.5px;margin:0 0 22px}
 code{background:var(--glass-2);padding:2px 6px;border-radius:5px;font-size:13px}
 
+
+/* shared glass: Hyalite writes --hyalite / --hyalite-edge on attached elements; without it you get the frosted fallback */
+.nav,.nav.shell,.strip,.card,.match-list,.kpis,.admin-grid,.profile,.news-card,.team-card,.sidebar,.modal-box,.login-box{
+  background:var(--glass);border:1px solid var(--edge);
+  backdrop-filter:var(--hyalite,var(--blur));-webkit-backdrop-filter:var(--hyalite,var(--blur));
+  box-shadow:var(--hyalite-edge,inset 0 1px 0 rgba(255,255,255,.12)),0 16px 40px rgba(0,0,0,.35)}
+.news-card:hover,.team-card:hover{background:rgba(20,34,64,.42)}
+html[data-glass="off"] .nav{backdrop-filter:var(--blur)}
 @media(max-width:900px){
   .grid2,.detail{grid-template-columns:minmax(0,1fr)}
   .strip{grid-template-columns:1fr;gap:14px}
