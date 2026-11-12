@@ -433,7 +433,7 @@ league-hub/
 
 ## 📄 &nbsp; LICENSE
 
-This project is licensed under the MIT License - see the license badge above. (Add a `LICENSE` file to the repo to make it official.)
+This project is licensed under the MIT License - see the license badge above.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
