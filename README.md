@@ -37,7 +37,8 @@
 ## 🌌 &nbsp; PROJECT OVERVIEW
 
 <div align="center">
-  <img src="![Uploading image.png…]()
+  <img src="<img width="1917" height="976" alt="image" src="https://github.com/user-attachments/assets/f13ed417-d16d-4b59-898f-b7019b27851e" />"
+
 " alt="Dashboard Preview" width="95%" />
   <br/>
   <sub><b>Figure 1:</b> League Hub Dashboard - Live standings, fixtures, and news</sub>
