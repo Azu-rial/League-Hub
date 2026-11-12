@@ -37,11 +37,14 @@
 ## 🌌 &nbsp; PROJECT OVERVIEW
 
 <div align="center">
-  <img src="<img width="1917" height="976" alt="image" src="https://github.com/user-attachments/assets/f13ed417-d16d-4b59-898f-b7019b27851e" />"
-
-" alt="Dashboard Preview" width="95%" />
+  <img
+    src="<img width="1917" height="976" alt="image" src="https://github.com/user-attachments/assets/e49f63f0-e56b-4330-b03d-482a37b90f2b" />
+"
+    alt="League Hub Dashboard Preview"
+    width="95%"
+  />
   <br/>
-  <sub><b>Figure 1:</b> League Hub Dashboard - Live standings, fixtures, and news</sub>
+  <sub><b>Figure 1:</b> League Hub Dashboard — Live standings, fixtures, and news</sub>
 </div>
 
 <br/>
