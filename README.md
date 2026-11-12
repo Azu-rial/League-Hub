@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/f5c1315f-bd26-4aae-bb9c-a022aa03a306" /><div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0D1117&height=320&section=header&text=LEAGUE%20HUB&fontSize=56&fontColor=8B5CF6&animation=fadeIn&fontAlignY=52&desc=UEFA%20CHAMPIONS%20LEAGUE%20DASHBOARD%20%E2%80%94%20FULL%20STACK%20FOOTBALL%20MANAGEMENT&descAlignY=74&descSize=18&descColor=6E7681&stroke=8B5CF6&strokeWidth=2" width="100%" />
 
@@ -26,7 +26,7 @@
 [![Discord](https://img.shields.io/badge/Discord.js-14.14-5865F2?style=for-the-badge&logo=discord&logoColor=white)](package.json)
 [![License](https://img.shields.io/badge/License-MIT-A371F7?style=for-the-badge)](LICENSE)
 
-[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Demo-Your-URL-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-domain.com)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%8C%90%20Live%20Demo-Your-URL-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://league-hub-zeta.vercel.app/)
 
 </div>
 
