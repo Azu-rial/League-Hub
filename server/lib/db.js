@@ -31,12 +31,15 @@ function ensure() {
 }
 function read() {
   ensure();
+  let out;
   try {
     const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-    return { ...clone(defaults), ...data, settings: { ...clone(defaults.settings), ...(data.settings || {}) } };
+    out = { ...clone(defaults), ...data, settings: { ...clone(defaults.settings), ...(data.settings || {}) } };
   } catch {
-    return clone(defaults);
+    out = clone(defaults);
   }
+  out.teams = out.teams.map(t => t.logoUrl ? t : { ...t, logoUrl: DEFAULT_LOGOS[t.name] || '' });
+  return out;
 }
 let queue = Promise.resolve();
 function mutate(fn) {
