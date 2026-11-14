@@ -16,13 +16,18 @@ app.use('/api',require('./routes/league'));
 app.use(express.static(path.join(__dirname,'..','public')));
 app.get('*',(req,res)=>res.sendFile(path.join(__dirname,'..','public','index.html')));
 
+app.use((err,req,res,next)=>{console.error(err);res.status(err.status||500).json({error:err.message||'Server error'})});
+
 (async()=>{
-  const d=read();
-  if(d.admins.length===0 && process.env.BOOTSTRAP_OWNER_USERNAME && process.env.BOOTSTRAP_OWNER_PASSWORD){
-    const bcrypt=require('bcryptjs'),{nanoid}=require('nanoid');
-    d.admins.push({id:nanoid(10),username:process.env.BOOTSTRAP_OWNER_USERNAME,displayName:process.env.BOOTSTRAP_OWNER_USERNAME,passwordHash:await bcrypt.hash(process.env.BOOTSTRAP_OWNER_PASSWORD,10),role:'owner',createdAt:new Date().toISOString()});
-    await mutate(db=>{db.admins=d.admins});
-    console.log(`Created bootstrap owner: ${process.env.BOOTSTRAP_OWNER_USERNAME}`);
-  }
+  try{
+    const d=await read();
+    if(d.admins.length===0 && process.env.BOOTSTRAP_OWNER_USERNAME && process.env.BOOTSTRAP_OWNER_PASSWORD){
+      const bcrypt=require('bcryptjs'),{nanoid}=require('nanoid');
+      const admin={id:nanoid(10),username:process.env.BOOTSTRAP_OWNER_USERNAME,displayName:process.env.BOOTSTRAP_OWNER_USERNAME,passwordHash:await bcrypt.hash(process.env.BOOTSTRAP_OWNER_PASSWORD,10),role:'owner',createdAt:new Date().toISOString()};
+      await mutate(db=>{if(db.admins.length===0)db.admins.push(admin)});
+      console.log(`Created bootstrap owner: ${process.env.BOOTSTRAP_OWNER_USERNAME}`);
+    }
+  }catch(e){console.error('Startup check failed:',e.message)}
   app.listen(port,()=>console.log(`League Hub running at http://localhost:${port}`));
 })();
+module.exports=app;
