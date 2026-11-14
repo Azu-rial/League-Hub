@@ -1,4 +1,3 @@
-
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const { read } = require('./db');
@@ -15,7 +14,7 @@ if (!secret) {
 
 const botKey = process.env.BOT_API_KEY || '';
 
-function identify(req, res, next) {
+async function identify(req, res, next) {
   if (botKey && req.get('x-api-key') === botKey) {
     req.actor = {
       type: 'bot',
@@ -38,7 +37,7 @@ function identify(req, res, next) {
       let admin = null;
 
       try {
-        admin = read().admins.find(a => a.id === payload.id) || null;
+        admin = (await read()).admins.find(a => a.id === payload.id) || null;
       } catch (error) {}
 
       if (admin) {
