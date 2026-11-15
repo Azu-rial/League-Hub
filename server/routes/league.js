@@ -12,7 +12,6 @@ const nn=v=>Math.max(0,num(v));
 const baseOf=b=>Object.fromEntries(KEYS.map(k=>[k,nn(b?.[k])]));
 const ALIAS={player:'name',name:'name',team:'team',club:'team',goals:'goals',g:'goals',assists:'assists',a:'assists',ast:'assists',cleansheets:'cleanSheets',cleansheet:'cleanSheets',cs:'cleanSheets',tackles:'tackles',tkl:'tackles',saves:'saves',sv:'saves',position:'position',pos:'position',number:'number',no:'number',discordid:'discordId',discord:'discordId'};
 
-
 // ---- Roblox link: read the username out of the Discord nickname, e.g. "Omar (Roblox_Omar)" or "Omar (@Roblox_Omar)".
 // No brackets, or a bracket that isn't a Roblox-style name -> no Roblox link (skipped).
 function splitName(raw){
@@ -24,18 +23,20 @@ function splitName(raw){
 const cleanRbx=v=>{const s=clean(v).replace(/^@/,'');return /^[A-Za-z0-9_]{3,20}$/.test(s)?s:''};
 const slugify=s=>clean(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
 
-// Roblox avatar lookup (server side, cached). Roblox blocks browsers from calling its API directly, so the site asks us.
+// Roblox avatar lookup (server side, cached). 
 const RBX={ids:new Map()};
 async function rbxJson(url,opt){const r=await fetch(url,opt);if(!r.ok)throw new Error('Roblox '+r.status);return r.json()}
 async function robloxIdFor(name){
   const k=low(name),hit=RBX.ids.get(k);if(hit&&Date.now()-hit.t<864e5)return hit.id;
-  const j=await rbxJson('https://users.roblox.com/v1/usernames/users',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({usernames:[name],excludeBannedUsers:false})});
+  // USING ROPROXY HERE TO BYPASS VERCEL BLOCK
+  const j=await rbxJson('https://users.roproxy.com/v1/usernames/users',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({usernames:[name],excludeBannedUsers:false})});
   const id=j.data&&j.data[0]?j.data[0].id:null;RBX.ids.set(k,{id,t:Date.now()});return id;
 }
 const THUMB={headshot:['avatar-headshot','150x150'],bust:['avatar-bust','352x352'],full:['avatar','420x420']};
 async function robloxThumb(id,type){
   const [path,size]=THUMB[type]||THUMB.headshot;
-  const j=await rbxJson(`https://thumbnails.roblox.com/v1/users/${path}?userIds=${id}&size=${size}&format=Png&isCircular=false`);
+  // USING ROPROXY HERE TO BYPASS VERCEL BLOCK
+  const j=await rbxJson(`https://thumbnails.roproxy.com/v1/users/${path}?userIds=${id}&size=${size}&format=Png&isCircular=false`);
   const x=j.data&&j.data[0];return x&&x.state==='Completed'?x.imageUrl:null;
 }
 
