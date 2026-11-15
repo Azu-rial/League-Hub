@@ -8,6 +8,7 @@ const api=require('./routes/api');
 const app=express();
 const port=Number(process.env.PORT||4000);
 const origins=(process.env.CORS_ORIGIN||'').split(',').map(x=>x.trim()).filter(Boolean);
+
 app.use(cors({origin:origins.length?origins:true}));
 app.use(express.json({limit:'2mb'}));
 app.use(identify);
@@ -18,16 +19,21 @@ app.get('*',(req,res)=>res.sendFile(path.join(__dirname,'..','public','index.htm
 
 app.use((err,req,res,next)=>{console.error(err);res.status(err.status||500).json({error:err.message||'Server error'})});
 
-(async()=>{
-  try{
-    const d=await read();
-    if(d.admins.length===0 && process.env.BOOTSTRAP_OWNER_USERNAME && process.env.BOOTSTRAP_OWNER_PASSWORD){
-      const bcrypt=require('bcryptjs'),{nanoid}=require('nanoid');
-      const admin={id:nanoid(10),username:process.env.BOOTSTRAP_OWNER_USERNAME,displayName:process.env.BOOTSTRAP_OWNER_USERNAME,passwordHash:await bcrypt.hash(process.env.BOOTSTRAP_OWNER_PASSWORD,10),role:'owner',createdAt:new Date().toISOString()};
-      await mutate(db=>{if(db.admins.length===0)db.admins.push(admin)});
-      console.log(`Created bootstrap owner: ${process.env.BOOTSTRAP_OWNER_USERNAME}`);
-    }
-  }catch(e){console.error('Startup check failed:',e.message)}
-  app.listen(port,()=>console.log(`League Hub running at http://localhost:${port}`));
-})();
-module.exports=app;
+// EXPORT THE APP FOR VERCEL FIRST
+module.exports = app;
+
+// ONLY RUN THE SERVER IF NOT ON VERCEL
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  (async()=>{
+    try{
+      const d=await read();
+      if(d.admins.length===0 && process.env.BOOTSTRAP_OWNER_USERNAME && process.env.BOOTSTRAP_OWNER_PASSWORD){
+        const bcrypt=require('bcryptjs'),{nanoid}=require('nanoid');
+        const admin={id:nanoid(10),username:process.env.BOOTSTRAP_OWNER_USERNAME,displayName:process.env.BOOTSTRAP_OWNER_USERNAME,passwordHash:await bcrypt.hash(process.env.BOOTSTRAP_OWNER_PASSWORD,10),role:'owner',createdAt:new Date().toISOString()};
+        await mutate(db=>{if(db.admins.length===0)db.admins.push(admin)});
+        console.log(`Created bootstrap owner: ${process.env.BOOTSTRAP_OWNER_USERNAME}`);
+      }
+    }catch(e){console.error('Startup check failed:',e.message)}
+    app.listen(port,()=>console.log(`League Hub running at http://localhost:${port}`));
+  })();
+}
