@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Import results</title>
+<style>
+:root{color-scheme:dark}
+body{margin:0;background:#05080f;color:#e8ecf5;font:15px/1.5 system-ui,Segoe UI,Arial,sans-serif;padding:24px}
+main{max-width:860px;margin:0 auto}
+h1{margin:0 0 4px;font-size:24px}p.sub{margin:0 0 20px;color:#9aa6bd}
+label{display:block;margin:16px 0 6px;font-weight:600}
+input[type=password],textarea{width:100%;box-sizing:border-box;background:#0d1424;color:#e8ecf5;border:1px solid #26324d;border-radius:10px;padding:10px 12px;font:inherit}
+textarea{min-height:260px;font:13px/1.45 ui-monospace,Consolas,monospace}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
+button{background:#1a2440;color:#e8ecf5;border:1px solid #33426b;border-radius:10px;padding:10px 16px;font:inherit;font-weight:600;cursor:pointer}
+button.primary{background:#7c3aed;border-color:#8b5cf6}button:disabled{opacity:.5;cursor:wait}
+pre{white-space:pre-wrap;background:#0d1424;border:1px solid #26324d;border-radius:10px;padding:14px;min-height:60px;margin-top:18px}
+.note{color:#9aa6bd;font-size:13px}
+</style></head><body><main>
+<h1>Import results</h1>
+<p class="sub">Paste the result posts exactly as they appear in Discord. Preview first, then import. Re-importing the same match updates it instead of duplicating it.</p>
+<label for="key">Bot API key</label>
+<input id="key" type="password" autocomplete="off" placeholder="the BOT_API_KEY from Vercel">
+<label for="text">Result posts</label>
+<textarea id="text" placeholder="Paste the Discord result posts here"></textarea>
+<div class="row">
+  <button id="load">Load Season 2 posts</button>
+  <label style="margin:0;font-weight:400"><input type="checkbox" id="news" checked> also add Player/Team of the Week news (Season 2 only)</label>
+</div>
+<div class="row">
+  <button id="preview">Preview (saves nothing)</button>
+  <button id="go" class="primary">Import</button>
+</div>
+<pre id="out">Waiting.</pre>
+<p class="note">Delete this page (public/import.html) from the repo once you are done, so the Season 2 posts are not left on the public site.</p>
+</main>
+<script id="season2-text" type="text/plain">Rain [UCL], Role icon, League Founder — 11/5/26, 2:41 AM
+Season GW 1
+ph4nt_0m (@F1_Phantom75)Role icon, Supervisor — 11/6/26, 1:56 PM
+:AC_Milan: | AC Milan 18 – 3 Manchester United | :Manchester_United:
+:CL: | Game Week 1
+:Referee: | @Senior (@amiej444)
+
+Statistics :statistics:
+
+:AC_Milan: AC Milan
+:AC_Milan: | @🇮🇱 — 3 Goals | 3 Assists | 2 Tackles | 1 Save
+:AC_Milan: | @xzamxr (@Xzamxr) — 6 Goals | 5 Assists | 0 Tackles | 1 Save
+:AC_Milan: | @Cure (@TheOne_Cure) — 8 Goals | 1 Assist | 2 Tackles | 0 Saves
+:AC_Milan: | @slash (@patataconyuca) — 1 Goal | 2 Assists | 2 Tackles | 1 Save
+:AC_Milan: | @kuzan (@shootgone777) — 1 Goal | 1 Assist | 4 Tackles | 0 Saves
+:AC_Milan: | @Guti (@G_utii) — 1 Goal | 1 Assist | 2 Tackles | 1 Save
+:AC_Milan: | @yogi (@F000TYY) — 0 Goals | 3 Assists | 5 Tackles | 3 Saves
+:AC_Milan: | @' — 0 Assists | 3 Tackle | 3 Saves
+ 
+:Manchester_United: Manchester United
+:Manchester_United: | @Neshee (@xxSlashee) — 3 Goals | 0 Assists | 0 Tackles | 0 Saves
+:Manchester_United: | @CrossFIT — 0 Goals | 2 Assists | 2 Tackles | 0 Saves
+:Manchester_United: | @blud (@Robloxian98954639) — 0 Goals | 0 Assists | 0 Tackles | 2 Saves
+:Manchester_United: | @Vxbr4 (@vxbr4) — 0 Goal | 0 Assists | 1 Tackle | 1 Save
+:Manchester_United: | @Texis (@SlashRTexis) — 0 Goals | 0 Assists | 0 Tackles | 0 Saves
+:Manchester_United: | @Ryukkj (@yRyu9x) — 0 Goal | 0 Assists | 1 Tackle | 1 Save
+:Manchester_United: | @yNoel4x — 0 Goals | 1 Assist | 0 Tackles | 0 Saves
+:Manchester_United: | @VITOR SARROP GK🧤 — 0 Goal | 0 Assists | 5 Tackles | 10 Saves
+:Manchester_United: FF 4 minutes into 2t after score exceeded mercy rule
+
+🏆 MVP's
+🥇 | @xzamxr (@Xzamxr) :AC_Milan: 
+🥈 | @Cure (@TheOne_Cure) :AC_Milan: 
+🥉 |  @yogi (@F000TYY) :AC_Milan: 
+
+🏆 :AC_Milan: AC MILAN WIN 18-3 ON AGGREGATE!
+Results credit : @yogi (@F000TYY) Ping : @Result Ping
+ph4nt_0m (@F1_Phantom75)Role icon, Supervisor — 11/9/26, 3:11 AM
+:Borussia_Dortmund:  | Borussia Dortmund 14 – 12 Real Madrid | :RealMadrid:
+:CL: | Game Week 1
+:Referee: | @Pure 
+
+Statistics :statistics:
+
+:Borussia_Dortmund: Borussia Dortmund
+:Borussia_Dortmund: | @williamamus (@zheytgf)  — 7 Goals | 4 Assists | 4 Tackles | 0 Save
+:Borussia_Dortmund: | @Zerox — 4 Goals | 6 Assists | 2 Tackles | 1 Save
+:Borussia_Dortmund: |@red1zk (@Red_RobloxTeOdio) — 2 Goals | 2 Assists | 2 Tackles | 1 Save
+:Borussia_Dortmund: | @ttnokia (@rip_zoro17812) — 0 Goal | 1 Assist | 10 Tackles | 1 Save
+:Borussia_Dortmund: | @KR_Snowy (@Snxwyloafa)  — 1 Goal | 1 Assist | 3 Tackles | 1 Save
+:Borussia_Dortmund: | @ZIUTEK (@zygzusiek) — 0 Goal | 0 Assist | 2 Tackles | 2 Saves
+:Borussia_Dortmund: | @leoxpe — 0 Goal | 0 Assist | 0 Tackle | 12 Saves
+:RealMadrid: Real Madrid
+:RealMadrid: | @vqk (@olegmaster42) — 3 Goals | 3 Assists | 3 Tackles | 0 Saves
+:RealMadrid: | @Mizu (@El_Anayaaa) — 0 Goals | 0 Assists | 6 Tackles | 3 Saves
+:RealMadrid: | @Robot_kubiki (@Robot2001_rubbit)  — 2 Goals | 2 Assists | 1 Tackle | 0 Saves
+:RealMadrid: | @Abyss9 (@yakday678)— 2 Goals | 2 Assists | 1 Tackle | 0 Saves
+:RealMadrid: | @Rio (@diyarfanb0y) — 0 Goals | 0 Assists | 1 Tackle | 3 Saves
+:RealMadrid: | @Valery (@HIBIKll) — 0 Goal | 0 Assists | 0 Tackles | 6 Save
+:RealMadrid: | @Santzware (@santi_241134)  — 2 Goals | 0 Assist | 4 Tackles | 0 Save
+:RealMadrid: | @netfetcher — 0 Goal | 0 Assists | 1 Tackle | 7 Saves
+:RealMadrid: | @Crazy_Normal (@Fullynormal2) — 0 Goal | 0 Assist | 2 Tackles | 1 Save
+:RealMadrid: | @xeerien — 3 Goals | 0 Assists | 4 Tackles | 1 Save
+:RealMadrid: | @fico (@ficoRiper) — 0 Goal | 0 Assist | 1 Tackle | 1 Save
+
+🏆 MVP's
+🥇 | @williamamus (@zheytgf)  :Borussia_Dortmund:
+🥈 | @leoxpe :Borussia_Dortmund: 
+🥉 |  @zerox / @ttnokia (@rip_zoro17812) :Borussia_Dortmund: 
+
+ :Borussia_Dortmund:  BORUSSIA DORTMUND WINS THE CLASH VS RMA :RealMadrid: !
+Ping : @Result Ping
+Patrick Jane [LGTN], Role icon, Supervisor — 11/12/26, 1:41 AM
+:Chelsea: | Chelsea 20 - 5 Inter Milan | :InterMilan:
+:CL: | Gameweek 1
+:Referee: | @slydoctor765 
+
+
+ :statistics: Statistics 
+
+:Chelsea: Chelsea
+:Chelsea: | @qwps (@MYC4SHB0X) 4 Goals | 2 Assist | 1
+:Chelsea: | @awex (@asvwex) 2 Tackles | 6 Saves
+:Chelsea: | @Domates (@kaya4513)  8 Goals | 4 Assist | 1 Tackle
+:Chelsea: | @Winny (@Winnyfrancais) 2 Goals | 2 Assist
+:Chelsea: | @josehh556hh 1 Goal | 1 Assist | 2 Tackles
+:Chelsea: | @RH01 (@callofnooby7) 1 Goal | 2 Tackles | 1 Save
+:Chelsea: | @WhoAreYou (@hiyourese) 1 Goal | 5 Assists | 4 Tackles | 1 Save
+
+:InterMilan: Inter Milan
+:InterMilan: | @MARC (@MarcSR492012) 1 Goal | 1 Assist | 2 Tackles
+:InterMilan: | @Vexintii 4 Goals | 1 Tackle
+:InterMilan: | @tekky (@10kingfromsea3) 2 Assists | 4 Tackles | 4 Saves
+:InterMilan: | @unknown-user 3 Assists | 4 Saves
+:InterMilan: | @yGouzinn 5 Tackle
+:InterMilan: | @Presi  (CHD201410) 1 Assist | 1 Tackle | 1 Save
+
+
+:Manofthematch: | MVP's
+🥇 | @Domates (@kaya4513)   :Chelsea:
+🥈 | @WhoAreYou (@hiyourese) :Chelsea:
+🥉 | @qwps (@MYC4SHB0X) :Chelsea:
+
+Ping : @Result Ping
+Rain [UCL], Role icon, League Founder — 11/12/26, 5:15 PM
+:Barcelona: | Barcelona 11 - 3 Paris Saint Germain | :PSG:
+:CL: | Game week 1
+:REFEREE: | @Rain 
+
+:stats:  Statistics 
+
+No stats as all players left before we can take proper ss
+
+
+ping : @Result Ping
+ph4nt_0m (@F1_Phantom75)Role icon, Supervisor — 11/15/26, 7:27 AM
+:InterMilan:  | Inter Milan 24 – 12 Real Madrid | :RealMadrid:
+:CL: | Game Week 2
+:Referee: | @「𝐂𝐡á𝐦éł𝐞𝐨𝐧」
+
+Statistics :statistics:
+
+:RealMadrid: Real Madrid
+
+> :RealMadrid: | @vqk (@olegmaster42) —0 Goals | 2 Assists | 1 Tackle | 0 Saves
+> :RealMadrid: | @18pm (@iSo0Kr) —0 Goals | 0 Assists | 1 Tackle | 1 Save
+> :RealMadrid: | @Robot_kubiki (@Robot2001_rubbit)  — 3 Goals | 0 Assists | 3 Tackles | 0 Saves
+> :RealMadrid: | @Jav (@BH_jav) — 2 Goals | 2 Assists | 1 Tackle | 1 Save
+> :RealMadrid: | @Rio (@diyarfanb0y) — 0 Goals | 0 Assists | 0 Tackle | 4 Saves
+> :RealMadrid: | @yum (@inviu3) —0 Goal | 0 Assists | 2 Tackles | 0 Save
+> :RealMadrid: | @Sevhz — 1 Goal | 1 Assist | 2 Tackles | 0 Save
+> :RealMadrid: | @RIP_SANJI (@Edubr458r)  —2 Goal | 0 Assists | 1 Tackle | 0 Saves
+> :RealMadrid: | @Crazy_Normal (@Fullynormal2) —0 Goal | 1 Assist | 0 Tackles | 0 Save
+> :RealMadrid: | @Slender (@superslender000s) —0 Goals | 0 Assists | 1 Tackle | 1 Save
+> :RealMadrid: | @veixca  — 0 Goal | 0 Assist | 2 Tackles | 2 Saves
+ 
+:InterMilan: Inter Milan
+:InterMilan: | @NEW_ARES (@mehmetefeee2022) —7 Goal | 6 Assist | 8 Tackles | 0 Saves
+:InterMilan: | @BJK_Hasars (@hAsAnHBjK1903)  —10 Goals | 3 Assists | 5 Tackles | 0 Saves
+:InterMilan: | @lord (@ManhuntRockLee) —4 Goals | 4 Assists | 4 Tackles | 0 Saves
+:InterMilan: | @Cristophere Karambus  —1 Assists | 5 Tackles | 2 Saves
+:InterMilan: | @Lkf7 (@Robloxian474436416)  —0 Goal | 1 Assist | 1 Tackle | 1 Save
+:InterMilan: | @Sam (@eidveni) —1 Assist | 1 Tackle | 2 Saves
+:InterMilan: | @gioo (@giovanito_gamer123) —0  Goal | 1 Assist | 0 Tackle | 0 Save
+:InterMilan: | @jvsplexx (@sllvrnn) —0 Goal | 1 Assist | 4 Tackles | 0 save
+:InterMilan: | @Just (@J1xsmo) —0 Goal | 0 Assist | 3 Tackles | 0 Save
+:InterMilan: | @Xques (@xques_12) —0 Goal | 0 Assist | 1 Tackle | 14 Saves
+
+
+:Manofthematch: | MVP's
+ 🥇 |  @BJK_Hasars (@hAsAnHBjK1903) :InterMilan: 
+ 🥈 | @NEW_ARES (@mehmetefeee2022) :InterMilan:
+ 🥉 | @Xques (@xques_12) :InterMilan: 
+
+@Result Ping
+ 
+Rain [UCL], Role icon, League Founder — 11/16/26, 7:34 AM
+:Manchester_United: | Manchester United 16 - 5 Paris Saint Germain | :PSG:
+:CL: | Game week 2
+:Referee: | @ph4nt_0m (@F1_Phantom75) 
+
+Statistics :statistics: 
+
+:Manchester_United:  Manchester United
+:Manchester_United: | @Razaryn 3 Goals | 1 Assist | 1 Tackle
+:Manchester_United: | @Kachuga (@gabrieltong31) 2 Goals | 1 Tackle
+:Manchester_United: | @GOD_Lore (@TheBlackElMejor) 1 Assist | 5 Tackles | 3 Saves
+:Manchester_United: | @Syr 3 Saves
+:Manchester_United: | @chozanblud 1 Assist | 2 Tackles | 1 Save
+:Manchester_United: | @CrossFIT 3 Goals | 3 Assists | 1 Tackle
+
+:PSG: PSG
+:PSG: | @lory (@Loryvx1) 4 Goals | 1 Assist | 3 Tackle
+:PSG: | @KrkGusta (@GustavoGarciaA) 1 Goal
+:PSG: | @GutiOwnsMe (@tearsfulldream) 3 Tackles | 1 Save
+:PSG: | @jotapê 1 Tackle
+
+
+2t psg ff +5 goals for man u
+ping : @Result Ping
+ 
+ph4nt_0m (@F1_Phantom75)Role icon, Supervisor — 11/16/26, 5:08 PM
+:Barcelona:  | Barcelona 13 - 2 Borussia Dortmund | :Borussia_Dortmund:
+:CL: | Game week 2
+:Referee: | @Senior (@amiej444)
+
+Statistics :statistics: 
+
+:Barcelona: Barcelona
+:Barcelona: | @wyrez (@wyrezirve)  4 Goals | 1 Assist 
+:Barcelona: | @Ronaldo (@MrHackCodTR)  1 Assist | 1 Tackle
+:Barcelona: | @Rafa new acc  4 Assists
+:Barcelona: | @gotahgotha nil
+
+:Borussia_Dortmund: Borussia Dortmund
+no stats as they all left
+
+bvb ff  +7 goals for barcelona
+ping : @Result Ping
+ph4nt_0m (@F1_Phantom75)Role icon, Supervisor — 11/16/26, 5:38 PM
+:Chelsea: | Chelsea 10 - 7 AC Milan | :AC_Milan:
+:CL: | Gameweek 2
+:Referee: | @Balerina capuchina (@Ballineno) 
+
+
+ :statistics: Statistics 
+
+:Chelsea: Chelsea
+:Chelsea: | @qwps (@MYC4SHB0X) —5 Goals | 5 Tackles | 1 Save
+:Chelsea: | @awex (@asvwex) —1 Tackle | 9 Saves
+:Chelsea: | @Domates (@kaya4513)  —2 Goals | 2 Assists
+:Chelsea: | @Winny (@Winnyfrancais) —3 Goals | 1 Assist | 2 Tackles
+:Chelsea: | @josehh556hh — 1 Assist | 3 Tackles
+:Chelsea: | @RH01 (@callofnooby7) —1 Save
+:Chelsea: | @WhoAreYou (@hiyourese) — 2 Assists | 2 Tackles 
+:Chelsea: | @KING_NASRmobutu (@MrKanashiJR)  —1 Assist | 1 Save
+:Chelsea: | @P_99 (@Camelo3O)  —1 Assist | 1 Tackle | 1 Save
+:Chelsea: | @leozito (@leozitogamer123) —3 Tackles | 1 Save
+:Chelsea: | @Mud (@MudPnW) —1 Assist | 3 Tackles
+ 
+:AC_Milan: AC Milan
+:AC_Milan: | @Cure (@TheOne_Cure)  —5 Goals | 3 Tackles
+:AC_Milan: | @yogi (@F000TYY) —1 Goal | 1 Tackle
+:AC_Milan: | @nosafe_word —1 Goal | 1 Assist | 1 Tackle | 1 Save
+:AC_Milan: | @Espathra (@nolia_sinclair)  —3 Tackles | 2 Saves
+:AC_Milan: | @slash (@patataconyuca) —3 Assists | 4 Tackles
+:AC_Milan: | @Guti (@G_utii) —1 Assist | 3 Tackles
+:AC_Milan: | @Lolet (@Lolet_SmallSausage) —1 Assist | 1 Tackle | 4 Saves
+:AC_Milan: | @YoMinha (@YoM1nha) —2 Tackles | 2 Saves
+:AC_Milan: | @Catloafa (@Cxtloafa)— 2 Tackles | 1 Save
+:AC_Milan: | @' —9 Saves
+
+
+:Manofthematch: | MVP's
+🥇 | @awex (@asvwex)  :Chelsea:
+🥈 | @qwps (@MYC4SHB0X) :Chelsea:
+🥉 | @Cure (@TheOne_Cure) :AC_Milan:
+
+Ping : @Result Ping
+</script>
+<script id="season2-news" type="application/json">[{"title": "Player of the Week, Gameweek 1: Domates", "category": "Awards", "publishedAt": "2026-11-11T01:53:00.000Z", "excerpt": "Chelsea's Domates takes the GW1 award after dropping 8 goals against Inter Milan.", "body": "After a wonderful game against Inter Milan, dropping 8 goals, Domates (Chelsea) has been named Gameweek 1 Player of the Week."}, {"title": "UCL Player of the Week: ARES crowned for Gameweek 2", "category": "Awards", "publishedAt": "2026-11-17T06:07:00.000Z", "excerpt": "Inter Milan's NEW_ARES takes the GW2 Player of the Week award.", "body": "Inter Milan's very own NEW_ARES takes home the prestigious Player of the Week award following an outstanding all-round performance in Gameweek 2.\n\n7 goals | 6 assists | 8 tackles\n\nWith 13 goal contributions and 8 successful tackles, Ares has proven himself a complete player, dominating both offensively and defensively.\n\nDespite strong competition from Hasar, who recorded 10 goals and 3 assists, Ares takes the award thanks to his exceptional overall contribution on the pitch. A well-deserved award for Inter Milan's star player. Can he maintain this form heading into the next gameweek?\n\nGFX credit: Vexintii"}, {"title": "Team of the Week, Gameweek 1", "category": "Awards", "publishedAt": "2026-11-10T20:33:00.000Z", "excerpt": "The Gameweek 1 Team of the Week is revealed.", "body": "CF: williamamus (Borussia Dortmund)\nRF: qwps (Chelsea)\nLF: unknown-user (Chelsea)\nCM: WhoAreYou (Chelsea)\nRB: ttnokia (Borussia Dortmund)\nLB: Mizu (Real Madrid)\nGK: leoxpe (Borussia Dortmund)"}, {"title": "Team of the Week, Gameweek 2", "category": "Awards", "publishedAt": "2026-11-18T06:48:00.000Z", "excerpt": "The Gameweek 2 Team of the Week has officially been revealed.", "body": "After another exciting gameweek filled with outstanding performances, these 11 players have earned their place in the Gameweek 2 Team of the Week.\n\nCF: qwps (Chelsea)\nRF: NEW_ARES (Inter Milan)\nLF: lord (Inter Milan)\nCAM: BJK_Hasars (Inter Milan)\nCM: slash (AC Milan)\nCM: jvsplexx (Inter Milan)\nRB: Cristophere Karambus (Inter Milan)\nCB: leozito (Chelsea)\nCB: Guti (AC Milan)\nLB: Espathra (AC Milan)\nGK: Xques (Inter Milan)\n\nFrom crucial saves and solid defending to brilliant playmaking and clinical finishing, these players have proven their quality. Congratulations to everyone selected!"}]</script>
+<script>
+const $=id=>document.getElementById(id);
+const out=t=>{$('out').textContent=t};
+$('load').onclick=()=>{$('text').value=$('season2-text').textContent.trim();$('news').checked=true;out('Season 2 posts loaded. Enter your key and press Preview.')};
+function summary(j){
+  const l=[];
+  l.push(j.dryRun?'PREVIEW - nothing was saved':'DONE - saved to the website');
+  l.push('');
+  l.push('Matches found: '+j.matchesFound+'  (new '+j.matchesCreated+', updated '+j.matchesUpdated+')');
+  l.push('Players: '+j.playersCreated+' new, '+j.playersUpdated+' updated');
+  l.push('News posts added: '+j.newsCreated);
+  if(j.teamsSeeded)l.push('The 8 teams were empty, so they were created.');
+  if(j.skipped.length){l.push('');l.push('SKIPPED:');j.skipped.forEach(x=>l.push(' - '+x))}
+  if(j.warnings.length){l.push('');l.push('CHECK THESE:');j.warnings.forEach(x=>l.push(' - '+x))}
+  return l.join('\n');
+}
+async function run(dry){
+  const key=$('key').value.trim();
+  if(!key){out('Enter your bot API key first.');return}
+  if(!$('text').value.trim()){out('Paste the result posts first (or press Load Season 2 posts).');return}
+  const body={text:$('text').value,dryRun:dry,news:$('news').checked?JSON.parse($('season2-news').textContent):[]};
+  ['preview','go'].forEach(i=>$(i).disabled=true);out('Working...');
+  try{
+    const r=await fetch('/api/import/results',{method:'POST',headers:{'Content-Type':'application/json','x-api-key':key},body:JSON.stringify(body)});
+    let j={};try{j=await r.json()}catch(e){}
+    out(r.ok?summary(j):'Error '+r.status+': '+(j.error||'the server could not do that. If it says Authentication required, the key is wrong.'));
+  }catch(e){out('Could not reach the server: '+e.message)}
+  ['preview','go'].forEach(i=>$(i).disabled=false);
+}
+$('preview').onclick=()=>run(true);
+$('go').onclick=()=>run(false);
+</script></body></html>
