@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/server/index.js"
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "{server/**,storage/**}"
     }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/index.js" }
   ]
 }

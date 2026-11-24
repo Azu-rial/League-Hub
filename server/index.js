@@ -28,6 +28,6 @@ app.use((err,req,res,next)=>{console.error(err);res.status(err.status||500).json
       console.log(`Created bootstrap owner: ${process.env.BOOTSTRAP_OWNER_USERNAME}`);
     }
   }catch(e){console.error('Startup check failed:',e.message)}
-  app.listen(port,()=>console.log(`League Hub running at http://localhost:${port}`));
+  if(!process.env.VERCEL)app.listen(port,()=>console.log(`League Hub running at http://localhost:${port}`));
 })();
 module.exports=app;
