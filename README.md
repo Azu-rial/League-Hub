@@ -445,6 +445,6 @@ This project is licensed under the MIT License - see the license badge above.
 
 <br/>
 
-**Built with ❤️ by [Azu-rial](https://github.com/Azu-rial)**
+**Built with dedication by [Azu-rial](https://github.com/Azu-rial) and [Ziyad](https://github.com/BOUCHOUKZiyad)**
 
 </div>
