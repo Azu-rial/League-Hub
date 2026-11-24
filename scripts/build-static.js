@@ -9,7 +9,7 @@ const d={admins:[],teams:[],players:[],matches:[],news:[],...snap,settings:{leag
 d.teams=d.teams.map(t=>t.logoUrl?t:{...t,logoUrl:DEFAULT_LOGOS[t.name]||''});
 const standings=computeStandings(d.teams,d.matches,d.settings);
 const st=statsFor(d,1000);
-const out={settings:d.settings,teams:d.teams,matches:d.matches,news:d.news,standings,players:d.players.filter(p=>p.active!==false),stats:statsFor(d,10),teamDetails:{}};
+const out={settings:d.settings,teams:d.teams,matches:d.matches,news:d.news,standings,players:d.players.filter(p=>p.active!==false),stats:statsFor(d,10),totw:d.totw||[],teamDetails:{}};
 d.teams.forEach(t=>{
   const det={team:t,standing:standings.find(x=>x.teamId===t.id),matches:d.matches.filter(m=>m.homeTeamId===t.id||m.awayTeamId===t.id).sort((a,b)=>new Date(b.scheduledAt)-new Date(a.scheduledAt)),players:st.players.filter(p=>p.teamId===t.id),tops:st.teamTops[t.id]||{}};
   out.teamDetails[t.id]=det;if(t.slug)out.teamDetails[t.slug]=det;

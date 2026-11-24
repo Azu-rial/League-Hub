@@ -16,7 +16,7 @@ function pickTeam(b){const o=pick(b,TEAM_FIELDS);if('rosterMax' in o)o.rosterMax
 function publicAdmin(a){return {id:a.id,username:a.username,displayName:a.displayName,role:a.role,createdAt:a.createdAt};}
 
 router.get('/site',async(req,res)=>{const d=(await read());res.json({settings:d.settings});});
-router.get('/dashboard',async(req,res)=>{const d=(await read());res.json({settings:d.settings,teams:d.teams,matches:d.matches,news:d.news,standings:computeStandings(d.teams,d.matches,d.settings),players:d.players.filter(p=>p.active!==false),stats:statsFor(d,10)});});
+router.get('/dashboard',async(req,res)=>{const d=(await read());res.json({settings:d.settings,teams:d.teams,matches:d.matches,news:d.news,standings:computeStandings(d.teams,d.matches,d.settings),players:d.players.filter(p=>p.active!==false),stats:statsFor(d,10),totw:d.totw||[]});});
 router.get('/standings',async(req,res)=>{const d=(await read());res.json(computeStandings(d.teams,d.matches,d.settings));});
 router.get('/teams',async(req,res)=>{res.json((await read()).teams.filter(t=>t.active!==false));});
 router.get('/teams/:id',async(req,res)=>{const d=(await read());const t=d.teams.find(x=>x.id===req.params.id||x.slug===req.params.id);if(!t)return res.status(404).json({error:'Team not found'});const s=computeStandings(d.teams,d.matches,d.settings).find(x=>x.teamId===t.id);const matches=d.matches.filter(m=>m.homeTeamId===t.id||m.awayTeamId===t.id).sort((a,b)=>new Date(b.scheduledAt)-new Date(a.scheduledAt));const st=statsFor(d,1000);res.json({team:t,standing:s,matches,players:st.players.filter(p=>p.teamId===t.id),tops:st.teamTops[t.id]||{}});});

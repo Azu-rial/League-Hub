@@ -2690,7 +2690,7 @@
    "title": "UCL Player of the Week: ARES crowned for Gameweek 2",
    "excerpt": "Inter Milan's NEW_ARES takes the GW2 Player of the Week award.",
    "body": "Inter Milan's very own NEW_ARES takes home the prestigious Player of the Week award following an outstanding all-round performance in Gameweek 2.\n\n7 goals | 6 assists | 8 tackles\n\nWith 13 goal contributions and 8 successful tackles, Ares has proven himself a complete player, dominating both offensively and defensively.\n\nDespite strong competition from Hasar, who recorded 10 goals and 3 assists, Ares takes the award thanks to his exceptional overall contribution on the pitch. A well-deserved award for Inter Milan's star player. Can he maintain this form heading into the next gameweek?\n\nGFX credit: Vexintii",
-   "imageUrl": "",
+   "imageUrl": "/totw/cover-potw-gw2.webp",
    "category": "Awards",
    "published": true,
    "publishedAt": "2026-11-17T06:07:00.000Z",
@@ -2701,23 +2701,43 @@
    "slug": "teamoftheweekgameweek1-zDaEC",
    "title": "Team of the Week, Gameweek 1",
    "excerpt": "The Gameweek 1 Team of the Week is revealed.",
-   "body": "CF: williamamus (Borussia Dortmund)\nRF: qwps (Chelsea)\nLF: unknown-user (Chelsea)\nCM: WhoAreYou (Chelsea)\nRB: ttnokia (Borussia Dortmund)\nLB: Mizu (Real Madrid)\nGK: leoxpe (Borussia Dortmund)",
-   "imageUrl": "",
+   "body": "CF: williamamus (Borussia Dortmund)\nRF: qwps (Chelsea)\nLF: Domates (Chelsea)\nCM: WhoAreYou (Chelsea)\nRB: ttnokia (Borussia Dortmund)\nLB: Mizu (Real Madrid)\nGK: leoxpe (Borussia Dortmund)",
+   "imageUrl": "/totw/cover-gw1.webp",
    "category": "Awards",
    "published": true,
    "publishedAt": "2026-11-10T20:33:00.000Z",
-   "author": "League Staff"
+   "author": "League Staff",
+   "link": {
+    "label": "View the lineup",
+    "href": "#/totw/1"
+   }
   },
   {
    "id": "4dYdbfQvFr",
    "slug": "teamoftheweekgameweek2-PvnOB",
    "title": "Team of the Week, Gameweek 2",
    "excerpt": "The Gameweek 2 Team of the Week has officially been revealed.",
-   "body": "After another exciting gameweek filled with outstanding performances, these 11 players have earned their place in the Gameweek 2 Team of the Week.\n\nCF: qwps (Chelsea)\nRF: NEW_ARES (Inter Milan)\nLF: lord (Inter Milan)\nCAM: BJK_Hasars (Inter Milan)\nCM: slash (AC Milan)\nCM: jvsplexx (Inter Milan)\nRB: Cristophere Karambus (Inter Milan)\nCB: leozito (Chelsea)\nCB: Guti (AC Milan)\nLB: Espathra (AC Milan)\nGK: Xques (Inter Milan)\n\nFrom crucial saves and solid defending to brilliant playmaking and clinical finishing, these players have proven their quality. Congratulations to everyone selected!",
-   "imageUrl": "",
+   "body": "After another exciting gameweek filled with outstanding performances, these 11 players have earned their place in the Gameweek 2 Team of the Week.\n\nCF: qwps (Chelsea)\nRF: NEW_ARES (Inter Milan)\nLF: lord (Inter Milan)\nCAM: BJK_Hasars (Inter Milan)\nCM: slash (AC Milan)\nCM: jvsplexx (Inter Milan)\nRB: Cristophere Karambus (Inter Milan)\nCB: leozito (Chelsea)\nCB: Guti (AC Milan)\nLB: Espathra (AC Milan)\nGK: Xques (Inter Milan)\n\nFrom crucial saves and solid defending to brilliant playmaking and clinical finishing, these players have proven their quality. Congratulations to everyone selected!\n\nTOTW GW 2 is here, with special individual GFX for every player.\nGFX credit: Vexintii",
+   "imageUrl": "/totw/cover-gw2.webp",
    "category": "Awards",
    "published": true,
    "publishedAt": "2026-11-18T06:48:00.000Z",
+   "author": "League Staff",
+   "link": {
+    "label": "View the lineup & GFX",
+    "href": "#/totw/2"
+   }
+  },
+  {
+   "id": "S2announce01",
+   "slug": "season-2-is-here-S2ann",
+   "title": "Season 2 is here",
+   "excerpt": "The Champions League is back for Season 2.",
+   "body": "Season 2 of the Champions League has officially begun. Follow every fixture, result, standing and stat right here.",
+   "imageUrl": "",
+   "category": "Announcements",
+   "published": true,
+   "publishedAt": "2026-09-01T22:33:00.000Z",
    "author": "League Staff"
   }
  ],
@@ -2731,5 +2751,169 @@
   "pointsWin": 3,
   "pointsDraw": 1,
   "pointsLoss": 0
- }
+ },
+ "totw": [
+  {
+   "gw": 1,
+   "title": "Team of the Week",
+   "date": "2026-11-10T20:33:00.000Z",
+   "image": "/totw/gw1.webp",
+   "credit": "",
+   "players": [
+    {
+     "pos": "CF",
+     "name": "williamamus",
+     "short": "William",
+     "team": "Borussia Dortmund",
+     "roblox": "zheytgf",
+     "gfx": ""
+    },
+    {
+     "pos": "RF",
+     "name": "qwps",
+     "short": "QWPS",
+     "team": "Chelsea",
+     "roblox": "MYC4SHB0X",
+     "gfx": ""
+    },
+    {
+     "pos": "LF",
+     "name": "Domates",
+     "short": "Domates",
+     "team": "Chelsea",
+     "roblox": "",
+     "gfx": ""
+    },
+    {
+     "pos": "CM",
+     "name": "WhoAreYou",
+     "short": "Hiyourese",
+     "team": "Chelsea",
+     "roblox": "hiyourese",
+     "gfx": ""
+    },
+    {
+     "pos": "RB",
+     "name": "ttnokia",
+     "short": "Nokia",
+     "team": "Borussia Dortmund",
+     "roblox": "rip_zoro17812",
+     "gfx": ""
+    },
+    {
+     "pos": "LB",
+     "name": "Mizu",
+     "short": "Mizu",
+     "team": "Real Madrid",
+     "roblox": "El_Anayaaa",
+     "gfx": ""
+    },
+    {
+     "pos": "GK",
+     "name": "leoxpe",
+     "short": "Fer",
+     "team": "Borussia Dortmund",
+     "roblox": "",
+     "gfx": ""
+    }
+   ]
+  },
+  {
+   "gw": 2,
+   "title": "Team of the Week",
+   "date": "2026-11-18T06:48:00.000Z",
+   "image": "/totw/cover-gw2.webp",
+   "credit": "Vexintii",
+   "players": [
+    {
+     "pos": "CF",
+     "name": "qwps",
+     "short": "Dark",
+     "team": "Chelsea",
+     "roblox": "MYC4SHB0X",
+     "gfx": "/totw/gw2-dark.webp"
+    },
+    {
+     "pos": "RF",
+     "name": "NEW_ARES",
+     "short": "Ares",
+     "team": "Inter Milan",
+     "roblox": "mehmetefeee2022",
+     "gfx": "/totw/gw2-ares.webp"
+    },
+    {
+     "pos": "LF",
+     "name": "lord",
+     "short": "Lord",
+     "team": "Inter Milan",
+     "roblox": "ManhuntRockLee",
+     "gfx": "/totw/gw2-lord.webp"
+    },
+    {
+     "pos": "CAM",
+     "name": "BJK_Hasars",
+     "short": "Hasars",
+     "team": "Inter Milan",
+     "roblox": "hAsAnHBjK1903",
+     "gfx": "/totw/gw2-hasars.webp"
+    },
+    {
+     "pos": "CM",
+     "name": "slash",
+     "short": "Slash",
+     "team": "AC Milan",
+     "roblox": "",
+     "gfx": "/totw/gw2-slash.webp"
+    },
+    {
+     "pos": "CM",
+     "name": "jvsplexx",
+     "short": "Jvsplexx",
+     "team": "Inter Milan",
+     "roblox": "sllvrnn",
+     "gfx": "/totw/gw2-jvsplexx.webp"
+    },
+    {
+     "pos": "RB",
+     "name": "Cristophere Karambus",
+     "short": "Karamba",
+     "team": "Inter Milan",
+     "roblox": "",
+     "gfx": "/totw/gw2-karamba.webp"
+    },
+    {
+     "pos": "CB",
+     "name": "leozito",
+     "short": "Leozito",
+     "team": "Chelsea",
+     "roblox": "leozitogamer123",
+     "gfx": "/totw/gw2-leozito.webp"
+    },
+    {
+     "pos": "CB",
+     "name": "Guti",
+     "short": "Guti",
+     "team": "AC Milan",
+     "roblox": "G_utii",
+     "gfx": "/totw/gw2-guti.webp"
+    },
+    {
+     "pos": "LB",
+     "name": "Espathra",
+     "short": "Espathra",
+     "team": "AC Milan",
+     "roblox": "nolia_sinclair",
+     "gfx": "/totw/gw2-espathra.webp"
+    },
+    {
+     "pos": "GK",
+     "name": "Xques",
+     "short": "Xques",
+     "team": "Inter Milan",
+     "roblox": "YunaRikka1",
+     "gfx": ""
+    }
+   ]
+  }
+ ]
 }

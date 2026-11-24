@@ -399,3 +399,63 @@ a.rbx:hover{text-decoration:underline}
     min-width: 0;
   }
 }
+
+
+/* ===== v2 polish: fixes + Team of the Week ===== */
+html{background:#05080f}
+.match{grid-template-columns:1fr minmax(88px,auto) 1fr}
+.score,.score small{white-space:nowrap}
+.score small.late{color:#f0b86e}
+.match{transition:background .15s}.match:hover{background:rgba(143,211,255,.06)}
+.round{margin-bottom:26px}
+.round-head{display:flex;align-items:baseline;justify-content:space-between;margin:0 4px 10px}
+.round-head h2{font:700 19px/1 var(--ui);font-stretch:108%;margin:0}.round-head span{color:var(--faint);font-size:13px}
+.news-card,.team-card{overflow:hidden;transition:transform .2s,background .2s}
+.news-card:hover,.team-card:hover{transform:translateY(-3px)}
+.news-card .news-img{transition:transform .45s}.news-card:hover .news-img{transform:scale(1.05)}
+.news-hero{display:block;width:100%;border-radius:18px;margin:24px 0;border:1px solid var(--edge)}
+.standings tbody tr{transition:background .15s}.standings tbody tr:hover{background:rgba(143,211,255,.05)}
+.page-title{background:linear-gradient(180deg,#fff,#b9d6f5);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gwtabs{display:flex;gap:8px;margin:18px 0 6px;flex-wrap:wrap}
+.gwtab{padding:8px 18px;border-radius:999px;border:1px solid var(--edge);background:var(--glass);font-weight:700;font-size:14px;color:var(--muted);transition:.15s}
+.gwtab:hover{color:var(--text)}.gwtab.active{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.totw-meta{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 22px}
+.chip{display:inline-flex;align-items:center;gap:7px;padding:5px 11px 5px 6px;border:1px solid var(--edge);border-radius:999px;background:var(--glass-2);font-size:13px;font-weight:600}
+.chip .logo{width:20px;height:20px}.chip b{color:var(--acc)}
+.pitch{position:relative;aspect-ratio:4/5;max-width:760px;margin:0 auto 26px;border-radius:var(--r-lg);border:1px solid var(--edge);overflow:hidden;
+  background:repeating-linear-gradient(180deg,rgba(255,255,255,.03) 0 10%,transparent 10% 20%),linear-gradient(180deg,#0a2a2a,#091a2e);box-shadow:0 16px 40px rgba(0,0,0,.35)}
+.pitch .pl{position:absolute;border:2px solid rgba(255,255,255,.13);pointer-events:none}
+.pitch .pc{left:50%;top:50%;width:26%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%}
+.pitch .pt{left:28%;right:28%;top:0;height:14%;border-top:0}
+.pitch .pbx{left:28%;right:28%;bottom:0;height:14%;border-bottom:0}
+.pitch::before{content:"";position:absolute;inset:12px;border:2px solid rgba(255,255,255,.13);border-radius:10px;pointer-events:none}
+.pn{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:4px;width:96px;background:none;border:0;padding:0;color:var(--text);font:inherit;transition:transform .18s}
+button.pn:hover{transform:translate(-50%,-54%) scale(1.06)}
+.pn-logo{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:rgba(6,11,24,.85);border:2px solid var(--edge);box-shadow:0 6px 16px rgba(0,0,0,.45)}
+.pn-logo .logo{width:30px;height:30px}
+.pn.has .pn-logo{border-color:var(--acc);box-shadow:0 0 0 3px rgba(143,211,255,.18),0 6px 16px rgba(0,0,0,.45)}
+.pn b{font:700 13px/1.1 var(--ui);background:rgba(6,11,24,.8);padding:4px 9px;border-radius:7px;white-space:nowrap;max-width:100px;overflow:hidden;text-overflow:ellipsis}
+.pn small{font:700 10.5px/1 var(--ui);color:var(--acc);letter-spacing:.07em}
+.gfx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.gfx{margin:0;border-radius:var(--r);overflow:hidden;border:1px solid var(--edge);background:var(--glass);cursor:zoom-in;transition:transform .2s}
+.gfx:hover{transform:translateY(-3px)}.gfx img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.gfx figcaption{display:flex;justify-content:space-between;gap:8px;padding:10px 12px;font-size:13px}.gfx figcaption span{color:var(--muted)}
+.totw-strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x proximity;scrollbar-width:thin}
+.totw-strip a{flex:0 0 150px;scroll-snap-align:start}
+.totw-strip img{width:150px;height:150px;object-fit:cover;border-radius:14px;border:1px solid var(--edge);display:block;transition:transform .2s}
+.totw-strip a:hover img{transform:translateY(-3px)}.totw-strip span{display:block;margin-top:7px;font-size:12.5px;color:var(--muted)}
+.lb{position:fixed;inset:0;z-index:100;background:rgba(3,6,12,.88);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);display:none;align-items:center;justify-content:center;padding:20px}
+.lb.show{display:flex}.lb figure{margin:0;max-width:min(92vw,820px);text-align:center}
+.lb img{max-width:100%;max-height:80vh;border-radius:14px}.lb figcaption{margin-top:10px;color:var(--muted)}
+.lb-x,.lb-n{position:absolute;background:var(--glass-strong);border:1px solid var(--edge);color:var(--text);width:44px;height:44px;border-radius:50%;font-size:24px;line-height:1}
+.lb-x{top:18px;right:18px}.lb-n{top:50%;transform:translateY(-50%)}.lb-n.prev{left:18px}.lb-n.next{right:18px}
+@media(max-width:900px){.links{scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}.links::-webkit-scrollbar{display:none}}
+@media(max-width:600px){
+  .match{grid-template-columns:1fr minmax(76px,auto) 1fr}
+  .pn{width:70px}.pn-logo{width:38px;height:38px}.pn-logo .logo{width:24px;height:24px}.pn b{font-size:11.5px;padding:3px 7px;max-width:72px}.pn small{font-size:9.5px}
+  .gfx-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+.standings.lineup{min-width:0}.standings.lineup th,.standings.lineup td{text-align:left}
+.news-img{height:auto;aspect-ratio:1200/630}
+.news-grid{align-items:start}
