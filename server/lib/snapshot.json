@@ -1,0 +1,2735 @@
+{
+ "admins": [],
+ "teams": [
+  {
+   "id": "HLgvZXR7_c",
+   "name": "Borussia Dortmund",
+   "shortName": "Dortmund",
+   "tag": "BVB",
+   "owner": "HaytCat",
+   "color": "#fde100",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "borussia-dortmund",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.121Z"
+  },
+  {
+   "id": "she7D7tktK",
+   "name": "Real Madrid",
+   "shortName": "Real Madrid",
+   "tag": "RMA",
+   "owner": "iHxrveyST",
+   "color": "#febe10",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "real-madrid",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.122Z"
+  },
+  {
+   "id": "PIb0UhzsMa",
+   "name": "Barcelona",
+   "shortName": "Barcelona",
+   "tag": "FCB",
+   "owner": "wyrez",
+   "color": "#a50044",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "barcelona",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.122Z"
+  },
+  {
+   "id": "v7tkqAxSDm",
+   "name": "Paris Saint-Germain",
+   "shortName": "PSG",
+   "tag": "PSG",
+   "owner": "velo",
+   "color": "#004170",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "paris-saint-germain",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.122Z",
+   "goalResetRound": 2
+  },
+  {
+   "id": "9OFjDvUpq-",
+   "name": "AC Milan",
+   "shortName": "AC Milan",
+   "tag": "ACM",
+   "owner": "yogi",
+   "color": "#fb090b",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "ac-milan",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.122Z"
+  },
+  {
+   "id": "EBbaHWs3jH",
+   "name": "Manchester United",
+   "shortName": "Man United",
+   "tag": "MUN",
+   "owner": "Neshee",
+   "color": "#da291c",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "manchester-united",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.122Z"
+  },
+  {
+   "id": "NizdaHvSyr",
+   "name": "Chelsea",
+   "shortName": "Chelsea",
+   "tag": "CHE",
+   "owner": "awex",
+   "color": "#034694",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "chelsea",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.122Z"
+  },
+  {
+   "id": "vHa7-cy0eH",
+   "name": "Inter Milan",
+   "shortName": "Inter",
+   "tag": "INT",
+   "owner": "ph4nt_0m",
+   "color": "#0068a8",
+   "ownerDiscordId": "",
+   "roleId": "",
+   "rosterMax": 20,
+   "logoUrl": "",
+   "description": "",
+   "slug": "inter-milan",
+   "active": true,
+   "createdAt": "2026-11-24T07:22:02.123Z",
+   "goalResetRound": 1
+  }
+ ],
+ "players": [
+  {
+   "id": "iXGoY_iyRd",
+   "name": "🇮🇱",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "FW7oW0LSlx",
+   "name": "xzamxr",
+   "discordId": "",
+   "roblox": "Xzamxr",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "yhcjRxXDBw",
+   "name": "Cure",
+   "discordId": "",
+   "roblox": "TheOne_Cure",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "XE2I7IpE4Z",
+   "name": "slash",
+   "discordId": "",
+   "roblox": "patataconyuca",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "3BGoHIKXFP",
+   "name": "kuzan",
+   "discordId": "",
+   "roblox": "shootgone777",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "ravFd1RmCF",
+   "name": "Guti",
+   "discordId": "",
+   "roblox": "G_utii",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "p8q1rS_d6j",
+   "name": "yogi",
+   "discordId": "",
+   "roblox": "F000TYY",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "Lxhy1_9m4D",
+   "name": "unknown-user (AC Milan)",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "L10JBXhnnl",
+   "name": "Neshee",
+   "discordId": "",
+   "roblox": "xxSlashee",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "-MRb1BR12u",
+   "name": "CrossFIT",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "3xYMvfZUIk",
+   "name": "blud",
+   "discordId": "",
+   "roblox": "Robloxian98954639",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "E0eg6K2jZi",
+   "name": "Vxbr4",
+   "discordId": "",
+   "roblox": "vxbr4",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "jiTUSsxslr",
+   "name": "Texis",
+   "discordId": "",
+   "roblox": "SlashRTexis",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "ULc1yKct3g",
+   "name": "Ryukkj",
+   "discordId": "",
+   "roblox": "yRyu9x",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "KnmFqdab61",
+   "name": "yNoel4x",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "0h6NwMm80v",
+   "name": "VITOR SARROP GK🧤",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-06T13:56:00.000Z"
+  },
+  {
+   "id": "0dm8uZ8MMX",
+   "name": "williamamus",
+   "discordId": "",
+   "roblox": "zheytgf",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "nKFmEGIAQr",
+   "name": "zzeerrooxx_",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "Rj5pqepgfE",
+   "name": "red1zk",
+   "discordId": "",
+   "roblox": "Red_RobloxTeOdio",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "4yUz1-1LOm",
+   "name": "ttnokia",
+   "discordId": "",
+   "roblox": "rip_zoro17812",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "trXay1ZIIg",
+   "name": "KR_Snowy",
+   "discordId": "",
+   "roblox": "Snxwyloafa",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "a3aNmYA3n5",
+   "name": "ZIUTEK",
+   "discordId": "",
+   "roblox": "zygzusiek",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "GPfptAA7e7",
+   "name": "leoxpe",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "HLgvZXR7_c",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "vjryd_fzj8",
+   "name": "vqk",
+   "discordId": "",
+   "roblox": "olegmaster42",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "P3IJ_2zWYu",
+   "name": "Mizu",
+   "discordId": "",
+   "roblox": "El_Anayaaa",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "2geD6DOgQL",
+   "name": "Robot_kubiki",
+   "discordId": "",
+   "roblox": "Robot2001_rubbit",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "MdUtD73jHs",
+   "name": "Abyss9",
+   "discordId": "",
+   "roblox": "yakday678",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "DlX9294-mT",
+   "name": "Rio",
+   "discordId": "",
+   "roblox": "diyarfanb0y",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "EJvB3wuVzr",
+   "name": "Valery",
+   "discordId": "",
+   "roblox": "HIBIKll",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "omWnhCKZnu",
+   "name": "Santzware",
+   "discordId": "",
+   "roblox": "santi_241134",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "FNek9E_08L",
+   "name": "netfetcher",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "phhRLCweWl",
+   "name": "Crazy_Normal",
+   "discordId": "",
+   "roblox": "Fullynormal2",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "BzoXKprlTH",
+   "name": "xeerien",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "SZ4oYHmtOc",
+   "name": "fico",
+   "discordId": "",
+   "roblox": "ficoRiper",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-09T03:11:00.000Z"
+  },
+  {
+   "id": "jfWooOgyFb",
+   "name": "qwps",
+   "discordId": "",
+   "roblox": "MYC4SHB0X",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "1xsAlc0--H",
+   "name": "awex",
+   "discordId": "",
+   "roblox": "asvwex",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "1_xXfI7R-k",
+   "name": "Domates",
+   "discordId": "",
+   "roblox": "kaya4513",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "THp2qCG5o0",
+   "name": "Winny",
+   "discordId": "",
+   "roblox": "Winnyfrancais",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "thnhqQCIvu",
+   "name": "josehh556hh",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "08lPuANsan",
+   "name": "RH01",
+   "discordId": "",
+   "roblox": "callofnooby7",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "l_OP0D-VuA",
+   "name": "WhoAreYou",
+   "discordId": "",
+   "roblox": "hiyourese",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "p82HPk60aD",
+   "name": "MARC",
+   "discordId": "",
+   "roblox": "MarcSR492012",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "EgoUgGLOt9",
+   "name": "Vexintii",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "3TqtHncEWd",
+   "name": "tekky",
+   "discordId": "",
+   "roblox": "10kingfromsea3",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "RuYBkK3xC6",
+   "name": "unknown-user (Inter Milan)",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "FZD1c9o4u_",
+   "name": "yGouzinn",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "CkREdy90fh",
+   "name": "Presi",
+   "discordId": "",
+   "roblox": "CHD201410",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-12T01:41:00.000Z"
+  },
+  {
+   "id": "RNpQRck2wL",
+   "name": "18pm",
+   "discordId": "",
+   "roblox": "iSo0Kr",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "kRcXbG4F-D",
+   "name": "Jav",
+   "discordId": "",
+   "roblox": "BH_jav",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "NG8-zfkSZC",
+   "name": "yum",
+   "discordId": "",
+   "roblox": "inviu3",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "y4hR9yXvvg",
+   "name": "Sevhz",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "wl8JWgLJMS",
+   "name": "RIP_SANJI",
+   "discordId": "",
+   "roblox": "Edubr458r",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "ahzyOaaGrY",
+   "name": "Slender",
+   "discordId": "",
+   "roblox": "superslender000s",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "35EId4IT4D",
+   "name": "veixca",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "she7D7tktK",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "hiBx6_G0NE",
+   "name": "NEW_ARES",
+   "discordId": "",
+   "roblox": "mehmetefeee2022",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "MClkDyyRn6",
+   "name": "BJK_Hasars",
+   "discordId": "",
+   "roblox": "hAsAnHBjK1903",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "tpAhcN4s2S",
+   "name": "lord",
+   "discordId": "",
+   "roblox": "ManhuntRockLee",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "M0wHHnfFB8",
+   "name": "Cristophere Karambus",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "157doMkFkD",
+   "name": "Lkf7",
+   "discordId": "",
+   "roblox": "Robloxian474436416",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "cmm7LQSa9T",
+   "name": "Sam",
+   "discordId": "",
+   "roblox": "eidveni",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "C9mgwv74Kh",
+   "name": "gioo",
+   "discordId": "",
+   "roblox": "giovanito_gamer123",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "EuzcUK_eiS",
+   "name": "jvsplexx",
+   "discordId": "",
+   "roblox": "sllvrnn",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "v79zfEPjYz",
+   "name": "Just",
+   "discordId": "",
+   "roblox": "J1xsmo",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "eAvniJg4IU",
+   "name": "Xques",
+   "discordId": "",
+   "roblox": "YunaRikka1",
+   "teamId": "vHa7-cy0eH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-15T07:27:00.000Z"
+  },
+  {
+   "id": "nmIDnn1CiQ",
+   "name": "Razaryn",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "XpUbbtk75O",
+   "name": "Kachuga",
+   "discordId": "",
+   "roblox": "gabrieltong31",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "N2eWxjGFAZ",
+   "name": "Loreee",
+   "discordId": "",
+   "roblox": "TheBlackElMejor",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "xn3cj5wNpE",
+   "name": "Syr",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "qz1dffq9dH",
+   "name": "chozanblud",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "EBbaHWs3jH",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "UuQbeVbYMt",
+   "name": "lory",
+   "discordId": "",
+   "roblox": "Loryvx1",
+   "teamId": "v7tkqAxSDm",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "bIb1XzXC4Q",
+   "name": "KrkGusta",
+   "discordId": "",
+   "roblox": "GustavoGarciaA",
+   "teamId": "v7tkqAxSDm",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "W9L177cW3j",
+   "name": "GutiOwnsMe",
+   "discordId": "",
+   "roblox": "tearsfulldream",
+   "teamId": "v7tkqAxSDm",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "eIZpXsmmUH",
+   "name": "jotapê",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "v7tkqAxSDm",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T07:34:00.000Z"
+  },
+  {
+   "id": "w5ffNNOH3H",
+   "name": "wyrez",
+   "discordId": "",
+   "roblox": "wyrezirve",
+   "teamId": "PIb0UhzsMa",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:08:00.000Z"
+  },
+  {
+   "id": "SUWIkdsJ0N",
+   "name": "Ronaldo",
+   "discordId": "",
+   "roblox": "MrHackCodTR",
+   "teamId": "PIb0UhzsMa",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:08:00.000Z"
+  },
+  {
+   "id": "i0ZxcCphsn",
+   "name": "Rafa new acc",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "PIb0UhzsMa",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:08:00.000Z"
+  },
+  {
+   "id": "8fzEVNSXUj",
+   "name": "gotahgotha",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "PIb0UhzsMa",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:08:00.000Z"
+  },
+  {
+   "id": "O98vUe4icR",
+   "name": "KING_NASRmobutu",
+   "discordId": "",
+   "roblox": "MrKanashiJR",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "U0lYdMxSoV",
+   "name": "P_99",
+   "discordId": "",
+   "roblox": "Camelo3O",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "wS9EeOoFXO",
+   "name": "leozito",
+   "discordId": "",
+   "roblox": "leozitogamer123",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "wUccSNDTbr",
+   "name": "Mud",
+   "discordId": "",
+   "roblox": "MudPnW",
+   "teamId": "NizdaHvSyr",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "OMJlZ5Ag9C",
+   "name": "nosafe_word",
+   "discordId": "",
+   "roblox": "",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "yYjY42nLS0",
+   "name": "Espathra",
+   "discordId": "",
+   "roblox": "nolia_sinclair",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "7En_IEpLi9",
+   "name": "Lolet",
+   "discordId": "",
+   "roblox": "Lolet_SmallSausage",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "yEXuqfGpsO",
+   "name": "YoMinha",
+   "discordId": "",
+   "roblox": "YoM1nha",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  },
+  {
+   "id": "lsV2sA2po7",
+   "name": "Catloafa",
+   "discordId": "",
+   "roblox": "Cxtloafa",
+   "teamId": "9OFjDvUpq-",
+   "position": "",
+   "number": "",
+   "base": {
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 0,
+    "tackles": 0,
+    "saves": 0
+   },
+   "active": true,
+   "createdAt": "2026-11-16T17:38:00.000Z"
+  }
+ ],
+ "matches": [
+  {
+   "id": "7D1FQhVFxu",
+   "homeTeamId": "9OFjDvUpq-",
+   "awayTeamId": "EBbaHWs3jH",
+   "venue": "",
+   "createdAt": "2026-11-06T13:56:00.000Z",
+   "round": "Gameweek 1",
+   "scheduledAt": "2026-11-06T00:00:00.000Z",
+   "notes": "Referee: Senior | Result by: ph4nt_0m | FF 4 minutes into 2t after score exceeded mercy rule | MVPs: xzamxr, Cure, yogi",
+   "status": "completed",
+   "homeScore": 18,
+   "awayScore": 3,
+   "resultPublishedAt": "2026-11-06T13:56:00.000Z",
+   "stats": [
+    {
+     "playerId": "iXGoY_iyRd",
+     "goals": 3,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "FW7oW0LSlx",
+     "goals": 6,
+     "assists": 5,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 1
+    },
+    {
+     "playerId": "yhcjRxXDBw",
+     "goals": 8,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "XE2I7IpE4Z",
+     "goals": 1,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "3BGoHIKXFP",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 0
+    },
+    {
+     "playerId": "ravFd1RmCF",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "p8q1rS_d6j",
+     "goals": 0,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 3
+    },
+    {
+     "playerId": "Lxhy1_9m4D",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 3
+    },
+    {
+     "playerId": "L10JBXhnnl",
+     "goals": 3,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "-MRb1BR12u",
+     "goals": 0,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "3xYMvfZUIk",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 2
+    },
+    {
+     "playerId": "E0eg6K2jZi",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "ULc1yKct3g",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "KnmFqdab61",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "0h6NwMm80v",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 10
+    }
+   ]
+  },
+  {
+   "id": "Wh6QLVptnr",
+   "homeTeamId": "HLgvZXR7_c",
+   "awayTeamId": "she7D7tktK",
+   "venue": "",
+   "createdAt": "2026-11-09T03:11:00.000Z",
+   "round": "Gameweek 1",
+   "scheduledAt": "2026-11-07T19:00:00.000Z",
+   "notes": "Referee: Pure | Broadcaster: Senior (amiej444) | Result by: Rain | MVPs: williamamus, leoxpe, zerox / ttnokia",
+   "status": "completed",
+   "homeScore": 14,
+   "awayScore": 12,
+   "resultPublishedAt": "2026-11-09T03:11:00.000Z",
+   "stats": [
+    {
+     "playerId": "0dm8uZ8MMX",
+     "goals": 7,
+     "assists": 4,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 0
+    },
+    {
+     "playerId": "nKFmEGIAQr",
+     "goals": 4,
+     "assists": 6,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "Rj5pqepgfE",
+     "goals": 2,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "4yUz1-1LOm",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 10,
+     "saves": 1
+    },
+    {
+     "playerId": "trXay1ZIIg",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 1
+    },
+    {
+     "playerId": "a3aNmYA3n5",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 2
+    },
+    {
+     "playerId": "GPfptAA7e7",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 12
+    },
+    {
+     "playerId": "vjryd_fzj8",
+     "goals": 3,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "P3IJ_2zWYu",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 6,
+     "saves": 3
+    },
+    {
+     "playerId": "2geD6DOgQL",
+     "goals": 2,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "MdUtD73jHs",
+     "goals": 2,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "DlX9294-mT",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 3
+    },
+    {
+     "playerId": "EJvB3wuVzr",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 6
+    },
+    {
+     "playerId": "omWnhCKZnu",
+     "goals": 2,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 0
+    },
+    {
+     "playerId": "FNek9E_08L",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 7
+    },
+    {
+     "playerId": "phhRLCweWl",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "BzoXKprlTH",
+     "goals": 3,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 1
+    },
+    {
+     "playerId": "SZ4oYHmtOc",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    }
+   ]
+  },
+  {
+   "id": "_Xh5MVZ1bd",
+   "homeTeamId": "NizdaHvSyr",
+   "awayTeamId": "vHa7-cy0eH",
+   "venue": "",
+   "createdAt": "2026-11-12T01:41:00.000Z",
+   "round": "Gameweek 1",
+   "scheduledAt": "2026-11-08T18:00:00.000Z",
+   "notes": "Referee: slydoctor765 | Commentator: Rari | Broadcaster: Jello (randompablo12) | Result by: Rain | MVPs: Domates, WhoAreYou, qwps",
+   "status": "completed",
+   "homeScore": 20,
+   "awayScore": 5,
+   "resultPublishedAt": "2026-11-12T01:41:00.000Z",
+   "stats": [
+    {
+     "playerId": "jfWooOgyFb",
+     "goals": 4,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "1xsAlc0--H",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 6
+    },
+    {
+     "playerId": "1_xXfI7R-k",
+     "goals": 8,
+     "assists": 4,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "THp2qCG5o0",
+     "goals": 2,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "thnhqQCIvu",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "08lPuANsan",
+     "goals": 1,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "l_OP0D-VuA",
+     "goals": 1,
+     "assists": 5,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 1
+    },
+    {
+     "playerId": "p82HPk60aD",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "EgoUgGLOt9",
+     "goals": 4,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "3TqtHncEWd",
+     "goals": 0,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 4
+    },
+    {
+     "playerId": "RuYBkK3xC6",
+     "goals": 0,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 4
+    },
+    {
+     "playerId": "FZD1c9o4u_",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 0
+    },
+    {
+     "playerId": "CkREdy90fh",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    }
+   ]
+  },
+  {
+   "id": "appgTa7-pg",
+   "homeTeamId": "PIb0UhzsMa",
+   "awayTeamId": "v7tkqAxSDm",
+   "venue": "",
+   "createdAt": "2026-11-12T17:15:00.000Z",
+   "round": "Gameweek 1",
+   "scheduledAt": "2026-11-07T19:00:00.000Z",
+   "notes": "Referee: Rain | Result by: Rain | No stats as all players left before we can take proper ss",
+   "status": "completed",
+   "homeScore": 11,
+   "awayScore": 3,
+   "resultPublishedAt": "2026-11-12T17:15:00.000Z",
+   "stats": []
+  },
+  {
+   "id": "Bn4-F04fd7",
+   "homeTeamId": "vHa7-cy0eH",
+   "awayTeamId": "she7D7tktK",
+   "venue": "",
+   "createdAt": "2026-11-15T07:27:00.000Z",
+   "round": "Gameweek 2",
+   "scheduledAt": "2026-11-14T19:00:00.000Z",
+   "notes": "Referee: 「𝐂𝐡á𝐦éł𝐞𝐨𝐧」 | Commentator: Rari | Broadcaster: Jello (randompablo12) | Result by: ph4nt_0m | MVPs: BJK_Hasars, NEW_ARES, Xques",
+   "status": "completed",
+   "homeScore": 24,
+   "awayScore": 12,
+   "resultPublishedAt": "2026-11-15T07:27:00.000Z",
+   "stats": [
+    {
+     "playerId": "vjryd_fzj8",
+     "goals": 0,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "RNpQRck2wL",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "2geD6DOgQL",
+     "goals": 3,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "kRcXbG4F-D",
+     "goals": 2,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "DlX9294-mT",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 4
+    },
+    {
+     "playerId": "NG8-zfkSZC",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "y4hR9yXvvg",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "wl8JWgLJMS",
+     "goals": 2,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "phhRLCweWl",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "ahzyOaaGrY",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "35EId4IT4D",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 2
+    },
+    {
+     "playerId": "hiBx6_G0NE",
+     "goals": 7,
+     "assists": 6,
+     "cleanSheets": 0,
+     "tackles": 8,
+     "saves": 0
+    },
+    {
+     "playerId": "MClkDyyRn6",
+     "goals": 10,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 0
+    },
+    {
+     "playerId": "tpAhcN4s2S",
+     "goals": 4,
+     "assists": 4,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 0
+    },
+    {
+     "playerId": "M0wHHnfFB8",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 2
+    },
+    {
+     "playerId": "157doMkFkD",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "cmm7LQSa9T",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 2
+    },
+    {
+     "playerId": "C9mgwv74Kh",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "EuzcUK_eiS",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 0
+    },
+    {
+     "playerId": "v79zfEPjYz",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "eAvniJg4IU",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 14
+    }
+   ]
+  },
+  {
+   "id": "fsI2lfk2Ba",
+   "homeTeamId": "EBbaHWs3jH",
+   "awayTeamId": "v7tkqAxSDm",
+   "venue": "",
+   "createdAt": "2026-11-16T07:34:00.000Z",
+   "round": "Gameweek 2",
+   "scheduledAt": "2026-11-15T19:00:00.000Z",
+   "notes": "Referee: ph4nt_0m | Result by: Rain | 2t psg ff +5 goals for man u",
+   "status": "completed",
+   "homeScore": 16,
+   "awayScore": 5,
+   "resultPublishedAt": "2026-11-16T07:34:00.000Z",
+   "stats": [
+    {
+     "playerId": "nmIDnn1CiQ",
+     "goals": 3,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "XpUbbtk75O",
+     "goals": 2,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "N2eWxjGFAZ",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 3
+    },
+    {
+     "playerId": "xn3cj5wNpE",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 3
+    },
+    {
+     "playerId": "qz1dffq9dH",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "-MRb1BR12u",
+     "goals": 3,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "UuQbeVbYMt",
+     "goals": 4,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "bIb1XzXC4Q",
+     "goals": 1,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "W9L177cW3j",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 1
+    },
+    {
+     "playerId": "eIZpXsmmUH",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    }
+   ]
+  },
+  {
+   "id": "t5m5w0weEV",
+   "homeTeamId": "PIb0UhzsMa",
+   "awayTeamId": "HLgvZXR7_c",
+   "venue": "",
+   "createdAt": "2026-11-16T17:08:00.000Z",
+   "round": "Gameweek 2",
+   "scheduledAt": "2026-11-15T19:00:00.000Z",
+   "notes": "Referee: Senior | Result by: Rain | no stats as they all left | bvb ff +7 goals for barcelona",
+   "status": "completed",
+   "homeScore": 13,
+   "awayScore": 2,
+   "resultPublishedAt": "2026-11-16T17:08:00.000Z",
+   "stats": [
+    {
+     "playerId": "w5ffNNOH3H",
+     "goals": 4,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "SUWIkdsJ0N",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "i0ZxcCphsn",
+     "goals": 0,
+     "assists": 4,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    }
+   ]
+  },
+  {
+   "id": "cPMsqJpAPP",
+   "homeTeamId": "NizdaHvSyr",
+   "awayTeamId": "9OFjDvUpq-",
+   "venue": "",
+   "createdAt": "2026-11-16T17:38:00.000Z",
+   "round": "Gameweek 2",
+   "scheduledAt": "2026-11-15T19:00:00.000Z",
+   "notes": "Referee: Balerina capuchina | Commentator: NAZARI0_RONALDO | Broadcaster: Jello (randompablo12) | Result by: Rain | MVPs: awex, qwps, Cure",
+   "status": "completed",
+   "homeScore": 10,
+   "awayScore": 7,
+   "resultPublishedAt": "2026-11-16T17:38:00.000Z",
+   "stats": [
+    {
+     "playerId": "jfWooOgyFb",
+     "goals": 5,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 5,
+     "saves": 1
+    },
+    {
+     "playerId": "1xsAlc0--H",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 9
+    },
+    {
+     "playerId": "1_xXfI7R-k",
+     "goals": 2,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 0
+    },
+    {
+     "playerId": "THp2qCG5o0",
+     "goals": 3,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "thnhqQCIvu",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "08lPuANsan",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 1
+    },
+    {
+     "playerId": "l_OP0D-VuA",
+     "goals": 0,
+     "assists": 2,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 0
+    },
+    {
+     "playerId": "O98vUe4icR",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 1
+    },
+    {
+     "playerId": "U0lYdMxSoV",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "wS9EeOoFXO",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 1
+    },
+    {
+     "playerId": "wUccSNDTbr",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "yhcjRxXDBw",
+     "goals": 5,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "p8q1rS_d6j",
+     "goals": 1,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 0
+    },
+    {
+     "playerId": "OMJlZ5Ag9C",
+     "goals": 1,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 1
+    },
+    {
+     "playerId": "yYjY42nLS0",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 2
+    },
+    {
+     "playerId": "XE2I7IpE4Z",
+     "goals": 0,
+     "assists": 3,
+     "cleanSheets": 0,
+     "tackles": 4,
+     "saves": 0
+    },
+    {
+     "playerId": "ravFd1RmCF",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 3,
+     "saves": 0
+    },
+    {
+     "playerId": "7En_IEpLi9",
+     "goals": 0,
+     "assists": 1,
+     "cleanSheets": 0,
+     "tackles": 1,
+     "saves": 4
+    },
+    {
+     "playerId": "yEXuqfGpsO",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 2
+    },
+    {
+     "playerId": "lsV2sA2po7",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 2,
+     "saves": 1
+    },
+    {
+     "playerId": "Lxhy1_9m4D",
+     "goals": 0,
+     "assists": 0,
+     "cleanSheets": 0,
+     "tackles": 0,
+     "saves": 9
+    }
+   ]
+  },
+  {
+   "id": "ifgkidarjk",
+   "homeTeamId": "she7D7tktK",
+   "awayTeamId": "9OFjDvUpq-",
+   "venue": "",
+   "createdAt": "2026-11-19T21:14:00+08:00",
+   "round": "Gameweek 3",
+   "scheduledAt": "2026-11-23T04:00:00.000Z",
+   "status": "scheduled",
+   "homeScore": null,
+   "awayScore": null,
+   "notes": "Time not announced yet (window 19-23 Nov)"
+  },
+  {
+   "id": "14j5geon00",
+   "homeTeamId": "NizdaHvSyr",
+   "awayTeamId": "PIb0UhzsMa",
+   "venue": "",
+   "createdAt": "2026-11-19T21:14:00+08:00",
+   "round": "Gameweek 3",
+   "scheduledAt": "2026-11-23T04:00:00.000Z",
+   "status": "scheduled",
+   "homeScore": null,
+   "awayScore": null,
+   "notes": "Time not announced yet (window 19-23 Nov)"
+  },
+  {
+   "id": "d933c4788f",
+   "homeTeamId": "EBbaHWs3jH",
+   "awayTeamId": "HLgvZXR7_c",
+   "venue": "",
+   "createdAt": "2026-11-19T21:14:00+08:00",
+   "round": "Gameweek 3",
+   "scheduledAt": "2026-11-22T20:00:00.000Z",
+   "status": "scheduled",
+   "homeScore": null,
+   "awayScore": null,
+   "notes": "Referee: Senior (amiej444) | Result by: Rain"
+  },
+  {
+   "id": "v13m075f6w",
+   "homeTeamId": "vHa7-cy0eH",
+   "awayTeamId": "v7tkqAxSDm",
+   "venue": "",
+   "createdAt": "2026-11-19T21:14:00+08:00",
+   "round": "Gameweek 3",
+   "scheduledAt": "2026-11-22T20:00:00.000Z",
+   "status": "scheduled",
+   "homeScore": null,
+   "awayScore": null,
+   "notes": "Referee: Rain | Broadcaster: Rain | Result by: Rain"
+  }
+ ],
+ "news": [
+  {
+   "id": "RPeewFL_Sj",
+   "slug": "playeroftheweekgameweek1domates-daAMK",
+   "title": "Player of the Week, Gameweek 1: Domates",
+   "excerpt": "Chelsea's Domates takes the GW1 award after dropping 8 goals against Inter Milan.",
+   "body": "After a wonderful game against Inter Milan, dropping 8 goals, Domates (Chelsea) has been named Gameweek 1 Player of the Week.",
+   "imageUrl": "",
+   "category": "Awards",
+   "published": true,
+   "publishedAt": "2026-11-11T01:53:00.000Z",
+   "author": "League Staff"
+  },
+  {
+   "id": "ioukx6FqsB",
+   "slug": "uclplayeroftheweekarescrownedforgameweek-p9JEB",
+   "title": "UCL Player of the Week: ARES crowned for Gameweek 2",
+   "excerpt": "Inter Milan's NEW_ARES takes the GW2 Player of the Week award.",
+   "body": "Inter Milan's very own NEW_ARES takes home the prestigious Player of the Week award following an outstanding all-round performance in Gameweek 2.\n\n7 goals | 6 assists | 8 tackles\n\nWith 13 goal contributions and 8 successful tackles, Ares has proven himself a complete player, dominating both offensively and defensively.\n\nDespite strong competition from Hasar, who recorded 10 goals and 3 assists, Ares takes the award thanks to his exceptional overall contribution on the pitch. A well-deserved award for Inter Milan's star player. Can he maintain this form heading into the next gameweek?\n\nGFX credit: Vexintii",
+   "imageUrl": "",
+   "category": "Awards",
+   "published": true,
+   "publishedAt": "2026-11-17T06:07:00.000Z",
+   "author": "League Staff"
+  },
+  {
+   "id": "Pq9BXCeMnO",
+   "slug": "teamoftheweekgameweek1-zDaEC",
+   "title": "Team of the Week, Gameweek 1",
+   "excerpt": "The Gameweek 1 Team of the Week is revealed.",
+   "body": "CF: williamamus (Borussia Dortmund)\nRF: qwps (Chelsea)\nLF: unknown-user (Chelsea)\nCM: WhoAreYou (Chelsea)\nRB: ttnokia (Borussia Dortmund)\nLB: Mizu (Real Madrid)\nGK: leoxpe (Borussia Dortmund)",
+   "imageUrl": "",
+   "category": "Awards",
+   "published": true,
+   "publishedAt": "2026-11-10T20:33:00.000Z",
+   "author": "League Staff"
+  },
+  {
+   "id": "4dYdbfQvFr",
+   "slug": "teamoftheweekgameweek2-PvnOB",
+   "title": "Team of the Week, Gameweek 2",
+   "excerpt": "The Gameweek 2 Team of the Week has officially been revealed.",
+   "body": "After another exciting gameweek filled with outstanding performances, these 11 players have earned their place in the Gameweek 2 Team of the Week.\n\nCF: qwps (Chelsea)\nRF: NEW_ARES (Inter Milan)\nLF: lord (Inter Milan)\nCAM: BJK_Hasars (Inter Milan)\nCM: slash (AC Milan)\nCM: jvsplexx (Inter Milan)\nRB: Cristophere Karambus (Inter Milan)\nCB: leozito (Chelsea)\nCB: Guti (AC Milan)\nLB: Espathra (AC Milan)\nGK: Xques (Inter Milan)\n\nFrom crucial saves and solid defending to brilliant playmaking and clinical finishing, these players have proven their quality. Congratulations to everyone selected!",
+   "imageUrl": "",
+   "category": "Awards",
+   "published": true,
+   "publishedAt": "2026-11-18T06:48:00.000Z",
+   "author": "League Staff"
+  }
+ ],
+ "settings": {
+  "leagueName": "Champions League",
+  "seasonName": "Season 2",
+  "tagline": "Fixtures. Results. Standings. One place.",
+  "logoUrl": "",
+  "primaryColor": "#8b5cf6",
+  "accentColor": "#22d3ee",
+  "pointsWin": 3,
+  "pointsDraw": 1,
+  "pointsLoss": 0
+ }
+}

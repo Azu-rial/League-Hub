@@ -23,6 +23,12 @@ const defaults = {
 };
 const clone = v => JSON.parse(JSON.stringify(v));
 
+// SNAPSHOT MODE (default): the site shows the data saved in snapshot.json, read-only, no database needed.
+// To go live with a database later, set LIVE_DB=1 in the environment (and connect Upstash Redis).
+let snapshot = null;
+try { snapshot = require('./snapshot.json'); } catch {}
+const STATIC = !!snapshot && process.env.LIVE_DB !== '1';
+
 function normalize(data) {
   const out = { ...clone(defaults), ...(data || {}), settings: { ...clone(defaults.settings), ...((data && data.settings) || {}) } };
   out.teams = out.teams.map(t => t.logoUrl ? t : { ...t, logoUrl: DEFAULT_LOGOS[t.name] || '' });
@@ -49,6 +55,7 @@ function readLocalFile() {
 
 // Returns { data, ver }. Throws on any problem (never silently returns empty data).
 async function load() {
+  if (STATIC) return { data: normalize(clone(snapshot)), ver: 0 };
   if (!remote) {
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     if (!fs.existsSync(file)) fs.writeFileSync(file, JSON.stringify(defaults, null, 2));
@@ -73,6 +80,7 @@ if v~=tonumber(ARGV[1]) then return 0 end
 redis.call('SET',KEYS[1],ARGV[2]) redis.call('SET',KEYS[2],tostring(v+1)) return 1`;
 
 async function attempt(fn) {
+  if (STATIC) throw new Error('The site is showing a saved snapshot (read-only). Admin changes are switched off until the live database is enabled.');
   for (let i = 0; i < 6; i++) {
     const { data, ver } = await load();
     const before = JSON.stringify(data);
@@ -99,4 +107,4 @@ function mutate(fn) {
   return run;
 }
 
-module.exports = { read, mutate, defaults, remote };
+module.exports = { read, mutate, defaults, remote, STATIC };
