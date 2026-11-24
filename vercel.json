@@ -1,11 +1,1 @@
-{
-  "version": 2,
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "{server/**,storage/**}"
-    }
-  },
-  "rewrites": [
-    { "source": "/api/:path*", "destination": "/api/index.js?__p=:path*" }
-  ]
-}
+{}
